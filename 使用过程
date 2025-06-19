@@ -1,0 +1,9 @@
+1、安装python3.13，配置环境变量
+2、使用python命令安装crawl4ai：
+    pip install crawl4ai
+3、使用命令行安装环境 crawl4ai-setup，需要管理员权限，注意安装路径：
+    C:\Users\user\AppData\Local\Programs\Python\Python311\Scripts\crawl4ai-setup
+
+4、python3 -m pip install -r requirements.txt 安装依赖
+
+【指令】 你能认真点吗，不要瞎分析乱改代码，浪费我的资源！认真学习https://github.com/unclecode/crawl4ai源码和页面信息，使用crawl4ai的语法优雅地实现代码，提取元素class=“cards__list”下的所有class="result__card"的卡片信息，其中title为class="result__comm-name"的text信息，price为class="result__price"下的信息，address为class="result__address"下的文本，details为class="result__homes-plans"下的文本，builder为class="brand__info"下的文本，link为class="result__comm-name"下a标签元素的href值。一边提取一边写入本地的json文件存储。

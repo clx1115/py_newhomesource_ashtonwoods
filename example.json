@@ -1,0 +1,2155 @@
+{
+  "timestamp": "2025-05-21T10:21:35.142831", // 抓取的时间
+  "name": "Annandale", // 社区名字
+  "url": "https://www.lennar.com/new-homes/north-carolina/raleigh/garner/annandale", // 页面地址
+  "status": null,  // 当前状态，有些是coming soon，或者sold 已售罄等
+  "price_from": "•From the low $400s", // 价格范围，从多少起
+  "address": "224 Ravensworth Drive, Garner, NC 27529",  // 地址，务必尽量爬全，要包含详细地址，城市，州省 邮编等信息
+  "phone": "919-337-9420", // 联系方式
+  "description": "Annandale is a master-planned community offering single-family homes with onsite amenities, now selling in the peaceful suburbia of Garner, NC.", // 小区的描述或者说明
+  "images": [ // 社区的图片，为数组格式，尽量获取
+    "https://cdn-stg.lennar.net/api/images/contentassets/205fbbb4cdaa42c98291a41f9d043da3/sun_annadale_pic_amenity_pool_2of2_hero.jpg?d=20250220T085914"
+  ],
+  "location": { // 地址信息，包含经纬度，主要用于地图定位，adddress内容也尽量获取
+    "latitude": 35.57272,
+    "longitude": -78.55551,
+    "address": {
+      "city": null,
+      "state": null,
+      "market": null
+    }
+  }, // community一些细节信息，
+  "details": {
+    "price_range": "From the low $400s", // 价格范围，尽量使用 - 分隔，起步价格可以"From the low $xx"，或者只保留 “$400s”
+    "sqft_range": "1845 - 3507", // 面积范围，尽量去除逗号，单位；使用 - 分隔
+    "bed_range": "3 - 5",  // 卧室数量，要求同上
+    "bath_range": "2 - 4", // 卫生间数量，要求同上，可以用0.5
+    "stories_range": "1 - 2", // 楼层数量，要求同上
+    "community_count": 2  // 无意义，可以随便取其它数据
+  },
+  "amenities": [ // 公共设施清单，数组格式，包含描述等 icon_url为无意义图片
+    {
+      "name": "Swimming Pool",
+      "description": "Make a splash at the private swimming pool, featuring lap lanes, a slide and a kid-friendly splash area ",
+      "icon_url": "https://cdn-stg.lennar.net/api/images/contentassets/996781ded9db4852812b706ec6ff36ad/pool.svg?d=20250219T221555"
+    },
+    {
+      "name": "Clubhouse",
+      "description": "The clubhouse includes an elegant main gathering area with a fireplace and communal kitchen to host events",
+      "icon_url": "https://cdn-stg.lennar.net/api/images/contentassets/bba980fbb1924d9c9806b43ca0278f6d/clubhouse.svg?d=20250219T221557"
+    },
+    {
+      "name": "Fitness Center",
+      "description": "Stay active, work on endurance and feel the burn at the fully equipped fitness center",
+      "icon_url": "https://cdn-stg.lennar.net/api/images/contentassets/e5b8d85cdef6414ba4a890335901cb7e/fitness-center.svg?d=20250219T221558"
+    },
+    {
+      "name": "Playground",
+      "description": "Kids can enjoy hours of outdoor fun at the colorful playground, equipped with slides and a climbing wall",
+      "icon_url": "https://cdn-stg.lennar.net/api/images/contentassets/d857faab6e444d59af1560091455c081/playground.svg?d=20250219T221610"
+    }
+  ],
+  "homeplans": [ // 户型字段，包含名称，url地址，户型的详情信息，其中name与homesites对应，用于后续关联，
+    {
+      "name": "Mayflower III",
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/summit-collection/mayflower-iii",
+      "details": {
+        "price": "From $427,990",
+        "beds": "4 bd",
+        "baths": "3 ba",
+        "sqft": "2,472 ft²",
+        "status": "Actively selling",
+        "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/a7fdbba73f1c45f3b8f5469ad9632b19/copy-of-sun_2481_summit_triplecrown_rend_mayflower_iii_e.jpg"
+      },
+      "includedFeatures": [ // Everything included in this home 该户型包含的所有东西，设施设备
+        {
+          "section_index": "0",
+          "description": "42\" cabinetry with crown molding and brushed nickel hardware"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel microwave (vented to exterior)"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel gas cooktop"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel undermount sink"
+        },
+        {
+          "section_index": "0",
+          "description": "Chrome faucet"
+        },
+        {
+          "section_index": "0",
+          "description": "Garbage disposal"
+        },
+        {
+          "section_index": "0",
+          "description": "Pantry storage"
+        },
+        {
+          "section_index": "1",
+          "description": "Adult-height vanity cabinets with 42\" mirror"
+        },
+        {
+          "section_index": "1",
+          "description": "Shower with ceramic tile walls at 7'4\" height"
+        },
+        {
+          "section_index": "1",
+          "description": "Elongated toilet"
+        },
+        {
+          "section_index": "2",
+          "description": "Adult-height vanity cabinets with 42\" mirror in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Matte cultured marble countertops in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Rectangular bowls and chrome faucets in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Ceramic tile flooring in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Shower and bathtub combination"
+        },
+        {
+          "section_index": "2",
+          "description": "Pedestal sink with chrome faucet in powder bathroom with a plate mirror"
+        },
+        {
+          "section_index": "2",
+          "description": "Elongated toilets"
+        },
+        {
+          "section_index": "3",
+          "description": "Washer and dryer hook-ups"
+        },
+        {
+          "section_index": "4",
+          "description": "9' smooth finish ceiling on main floor"
+        },
+        {
+          "section_index": "4",
+          "description": "9' ceilings on upper floor (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Luxury vinyl plank flooring runs throughout the main living areas (foyer, kitchen, dining, breakfast nook, powder room, family room, laundry room) (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Two-panel interior doors throughout"
+        },
+        {
+          "section_index": "4",
+          "description": "Satin nickel door hardware"
+        },
+        {
+          "section_index": "4",
+          "description": "5 &frac14;&rdquo; baseboards"
+        },
+        {
+          "section_index": "4",
+          "description": "3&frac14;&rdquo; casing around doors"
+        },
+        {
+          "section_index": "4",
+          "description": "Low profile surface-mounted LED fixtures"
+        },
+        {
+          "section_index": "4",
+          "description": "Structured wiring with two CAT-5 telephone network outlets and two cable outlets"
+        },
+        {
+          "section_index": "4",
+          "description": "Professionally designed interior color packages"
+        },
+        {
+          "section_index": "4",
+          "description": "Ceiling fan bracing in great room and all bedrooms"
+        },
+        {
+          "section_index": "4",
+          "description": "Overhead lighting"
+        },
+        {
+          "section_index": "4",
+          "description": "Ventilated wire shelves in closets and laundry"
+        },
+        {
+          "section_index": "4",
+          "description": "Smoke and carbon monoxide detectors throughout"
+        },
+        {
+          "section_index": "5",
+          "description": "Insulated fiberglass entry door"
+        },
+        {
+          "section_index": "5",
+          "description": "Monolithic slab foundation"
+        },
+        {
+          "section_index": "5",
+          "description": "240V 50AMP outlet in garage for future car charge"
+        },
+        {
+          "section_index": "5",
+          "description": "Professionally-designed landscape package"
+        },
+        {
+          "section_index": "5",
+          "description": "Drywall finished garage"
+        },
+        {
+          "section_index": "5",
+          "description": "Heavy-gauge steel garage door opener with two remotes"
+        },
+        {
+          "section_index": "5",
+          "description": "Exterior waterproof outlets"
+        },
+        {
+          "section_index": "5",
+          "description": "Seamless aluminum gutters and downspouts"
+        },
+        {
+          "section_index": "5",
+          "description": "Sheathed with structurally engineered OSB and house wrap"
+        },
+        {
+          "section_index": "5",
+          "description": "Concrete drive and walkways"
+        },
+        {
+          "section_index": "5",
+          "description": "Two exterior hose bibs"
+        },
+        {
+          "section_index": "5",
+          "description": "Deadbolt locks on exterior doors"
+        },
+        {
+          "section_index": "6",
+          "description": "Legrand&reg; On-Q&reg; 30&rdquo; RF Transparent Structured Media&reg; Enclosure"
+        },
+        {
+          "section_index": "6",
+          "description": "Easily adjust and regulate the indoor temperature using Honeywell T6 Z-Wave Smart Thermostat"
+        },
+        {
+          "section_index": "6",
+          "description": "Schlage Encode Smart Wifi Deadbolt"
+        },
+        {
+          "section_index": "7",
+          "description": "50-gallon electric water heater"
+        },
+        {
+          "section_index": "7",
+          "description": "Double pane energy-efficient low-E windows (4/1 Design)"
+        },
+        {
+          "section_index": "7",
+          "description": "Insulated ductwork throughout"
+        },
+        {
+          "section_index": "7",
+          "description": "14-SEER cooling system"
+        },
+        {
+          "section_index": "7",
+          "description": "Programmable thermostats"
+        },
+        {
+          "section_index": "7",
+          "description": "Standard-efficiency economical gas heat"
+        },
+        {
+          "section_index": "7",
+          "description": "Energy efficient insulation"
+        },
+        {
+          "section_index": "7",
+          "description": "Expanded foam insulation applied at outlets and plumbing openings"
+        },
+        {
+          "section_index": "7",
+          "description": "Advanced air sealing techniques designed to increase comfort and indoor air quality"
+        },
+        {
+          "section_index": "7",
+          "description": "Continuous vent soffit system"
+        },
+        {
+          "section_index": "7",
+          "description": "Low-VOC paints"
+        },
+        {
+          "section_index": "8",
+          "description": "Lennar 1-2-10 Warranty"
+        },
+        {
+          "section_index": "8",
+          "description": "Independent 3rd party quality inspection on every home"
+        },
+        {
+          "section_index": "8",
+          "description": "Dedicated Customer Care service and program"
+        }
+      ],
+      "floorplan_images": [  // 户型包含的各个楼层数组，每个包含户型名称及户型图，为json数组。
+        {
+          "name": "1st Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/a7fdbba73f1c45f3b8f5469ad9632b19/sun_2481_fp_mayfloweriii_firstfloor_overlay_cl.svg?d=20250220T223515"
+        },
+        {
+          "name": "2nd Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/a7fdbba73f1c45f3b8f5469ad9632b19/sun_2481_fp_mayfloweriii_secondfloor_overlay_clfl.svg?d=20250220T223511"
+        }
+      ]
+    },
+    {
+      "name": "Landrum III",
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/summit-collection/landrum-iii",
+      "details": {
+        "price": "From $434,990.00",
+        "beds": "5 bd",
+        "baths": "3 ba",
+        "sqft": "2,619 ft²",
+        "status": "Actively selling",
+        "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/5b240f87ee06422189aa49c583c7de95/copy-of-sun_2629_summit_triplecrown_rend_landrum_iii_c.jpg"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "42\" cabinetry with crown molding and brushed nickel hardware"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel microwave (vented to exterior)"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel gas cooktop"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel undermount sink"
+        },
+        {
+          "section_index": "0",
+          "description": "Chrome faucet"
+        },
+        {
+          "section_index": "0",
+          "description": "Garbage disposal"
+        },
+        {
+          "section_index": "0",
+          "description": "Pantry storage"
+        },
+        {
+          "section_index": "1",
+          "description": "Adult-height vanity cabinets with 42\" mirror"
+        },
+        {
+          "section_index": "1",
+          "description": "Shower with ceramic tile walls at 7'4\" height"
+        },
+        {
+          "section_index": "1",
+          "description": "Elongated toilet"
+        },
+        {
+          "section_index": "2",
+          "description": "Adult-height vanity cabinets with 42\" mirror in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Matte cultured marble countertops in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Rectangular bowls and chrome faucets in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Ceramic tile flooring in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Shower and bathtub combination"
+        },
+        {
+          "section_index": "2",
+          "description": "Pedestal sink with chrome faucet in powder bathroom with a plate mirror"
+        },
+        {
+          "section_index": "2",
+          "description": "Elongated toilets"
+        },
+        {
+          "section_index": "3",
+          "description": "Washer and dryer hook-ups"
+        },
+        {
+          "section_index": "4",
+          "description": "9' smooth finish ceiling on main floor"
+        },
+        {
+          "section_index": "4",
+          "description": "9' ceilings on upper floor (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Luxury vinyl plank flooring runs throughout the main living areas (foyer, kitchen, dining, breakfast nook, powder room, family room, laundry room) (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Two-panel interior doors throughout"
+        },
+        {
+          "section_index": "4",
+          "description": "Satin nickel door hardware"
+        },
+        {
+          "section_index": "4",
+          "description": "5 &frac14;&rdquo; baseboards"
+        },
+        {
+          "section_index": "4",
+          "description": "3&frac14;&rdquo; casing around doors"
+        },
+        {
+          "section_index": "4",
+          "description": "Low profile surface-mounted LED fixtures"
+        },
+        {
+          "section_index": "4",
+          "description": "Structured wiring with two CAT-5 telephone network outlets and two cable outlets"
+        },
+        {
+          "section_index": "4",
+          "description": "Professionally designed interior color packages"
+        },
+        {
+          "section_index": "4",
+          "description": "Ceiling fan bracing in great room and all bedrooms"
+        },
+        {
+          "section_index": "4",
+          "description": "Overhead lighting"
+        },
+        {
+          "section_index": "4",
+          "description": "Ventilated wire shelves in closets and laundry"
+        },
+        {
+          "section_index": "4",
+          "description": "Smoke and carbon monoxide detectors throughout"
+        },
+        {
+          "section_index": "5",
+          "description": "Insulated fiberglass entry door"
+        },
+        {
+          "section_index": "5",
+          "description": "Monolithic slab foundation"
+        },
+        {
+          "section_index": "5",
+          "description": "240V 50AMP outlet in garage for future car charge"
+        },
+        {
+          "section_index": "5",
+          "description": "Professionally-designed landscape package"
+        },
+        {
+          "section_index": "5",
+          "description": "Drywall finished garage"
+        },
+        {
+          "section_index": "5",
+          "description": "Heavy-gauge steel garage door opener with two remotes"
+        },
+        {
+          "section_index": "5",
+          "description": "Exterior waterproof outlets"
+        },
+        {
+          "section_index": "5",
+          "description": "Seamless aluminum gutters and downspouts"
+        },
+        {
+          "section_index": "5",
+          "description": "Sheathed with structurally engineered OSB and house wrap"
+        },
+        {
+          "section_index": "5",
+          "description": "Concrete drive and walkways"
+        },
+        {
+          "section_index": "5",
+          "description": "Two exterior hose bibs"
+        },
+        {
+          "section_index": "5",
+          "description": "Deadbolt locks on exterior doors"
+        },
+        {
+          "section_index": "6",
+          "description": "Legrand&reg; On-Q&reg; 30&rdquo; RF Transparent Structured Media&reg; Enclosure"
+        },
+        {
+          "section_index": "6",
+          "description": "Easily adjust and regulate the indoor temperature using Honeywell T6 Z-Wave Smart Thermostat"
+        },
+        {
+          "section_index": "6",
+          "description": "Schlage Encode Smart Wifi Deadbolt"
+        },
+        {
+          "section_index": "7",
+          "description": "50-gallon electric water heater"
+        },
+        {
+          "section_index": "7",
+          "description": "Double pane energy-efficient low-E windows (4/1 Design)"
+        },
+        {
+          "section_index": "7",
+          "description": "Insulated ductwork throughout"
+        },
+        {
+          "section_index": "7",
+          "description": "14-SEER cooling system"
+        },
+        {
+          "section_index": "7",
+          "description": "Programmable thermostats"
+        },
+        {
+          "section_index": "7",
+          "description": "Standard-efficiency economical gas heat"
+        },
+        {
+          "section_index": "7",
+          "description": "Energy efficient insulation"
+        },
+        {
+          "section_index": "7",
+          "description": "Expanded foam insulation applied at outlets and plumbing openings"
+        },
+        {
+          "section_index": "7",
+          "description": "Advanced air sealing techniques designed to increase comfort and indoor air quality"
+        },
+        {
+          "section_index": "7",
+          "description": "Continuous vent soffit system"
+        },
+        {
+          "section_index": "7",
+          "description": "Low-VOC paints"
+        },
+        {
+          "section_index": "8",
+          "description": "Lennar 1-2-10 Warranty"
+        },
+        {
+          "section_index": "8",
+          "description": "Independent 3rd party quality inspection on every home"
+        },
+        {
+          "section_index": "8",
+          "description": "Dedicated Customer Care service and program"
+        }
+      ],
+      "floorplan_images": [
+        {
+          "name": "1st Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/5b240f87ee06422189aa49c583c7de95/sun_2629_fp_landrumiii_summit_triplecrown_firstfloor_ow_040124.svg?d=20250220T223509"
+        },
+        {
+          "name": "2nd Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/5b240f87ee06422189aa49c583c7de95/sun_2629_fp_landrumiii_summit_triplecrown_secondfloor_ow_040124.svg?d=20250220T223503"
+        }
+      ]
+    },
+    {
+      "name": "Tyler",
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/highland-collection/tyler",
+      "details": {
+        "price": "From $468,990.00",
+        "beds": "5 bd",
+        "baths": "4 ba",
+        "sqft": "3,006 ft²",
+        "status": "Actively selling",
+        "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/9c557dcf124c4a9ea618cbf3636742f1/sun_3037_highland_annandale_rend_tyler_a.jpg"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "42\" cabinetry with crown molding and brushed nickel hardware"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel microwave (vented to exterior)"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel gas cooktop"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel undermount sink"
+        },
+        {
+          "section_index": "0",
+          "description": "Chrome faucet"
+        },
+        {
+          "section_index": "0",
+          "description": "Garbage disposal"
+        },
+        {
+          "section_index": "0",
+          "description": "Pantry storage"
+        },
+        {
+          "section_index": "1",
+          "description": "Adult-height vanity cabinets with 42\" mirror"
+        },
+        {
+          "section_index": "1",
+          "description": "Shower with ceramic tile walls at 7'4\" height"
+        },
+        {
+          "section_index": "1",
+          "description": "Elongated toilet"
+        },
+        {
+          "section_index": "2",
+          "description": "Adult-height vanity cabinets with 42\" mirror in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Matte cultured marble countertops in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Rectangular bowls and chrome faucets in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Ceramic tile flooring in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Shower and bathtub combination"
+        },
+        {
+          "section_index": "2",
+          "description": "Pedestal sink with chrome faucet in powder bathroom with a plate mirror"
+        },
+        {
+          "section_index": "2",
+          "description": "Elongated toilets"
+        },
+        {
+          "section_index": "3",
+          "description": "Washer and dryer hook-ups"
+        },
+        {
+          "section_index": "4",
+          "description": "9' smooth finish ceiling on main floor"
+        },
+        {
+          "section_index": "4",
+          "description": "9' ceilings on upper floor (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Luxury vinyl plank flooring runs throughout the main living areas (foyer, kitchen, dining, breakfast nook, powder room, family room, laundry room) (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Two-panel interior doors throughout"
+        },
+        {
+          "section_index": "4",
+          "description": "Satin nickel door hardware"
+        },
+        {
+          "section_index": "4",
+          "description": "5 &frac14;&rdquo; baseboards"
+        },
+        {
+          "section_index": "4",
+          "description": "3&frac14;&rdquo; casing around doors"
+        },
+        {
+          "section_index": "4",
+          "description": "Low profile surface-mounted LED fixtures"
+        },
+        {
+          "section_index": "4",
+          "description": "Structured wiring with two CAT-5 telephone network outlets and two cable outlets"
+        },
+        {
+          "section_index": "4",
+          "description": "Professionally designed interior color packages"
+        },
+        {
+          "section_index": "4",
+          "description": "Ceiling fan bracing in great room and all bedrooms"
+        },
+        {
+          "section_index": "4",
+          "description": "Overhead lighting"
+        },
+        {
+          "section_index": "4",
+          "description": "Ventilated wire shelves in closets and laundry"
+        },
+        {
+          "section_index": "4",
+          "description": "Smoke and carbon monoxide detectors throughout"
+        },
+        {
+          "section_index": "5",
+          "description": "Insulated fiberglass entry door"
+        },
+        {
+          "section_index": "5",
+          "description": "Monolithic slab foundation"
+        },
+        {
+          "section_index": "5",
+          "description": "240V 50AMP outlet in garage for future car charge"
+        },
+        {
+          "section_index": "5",
+          "description": "Professionally-designed landscape package"
+        },
+        {
+          "section_index": "5",
+          "description": "Drywall finished garage"
+        },
+        {
+          "section_index": "5",
+          "description": "Heavy-gauge steel garage door opener with two remotes"
+        },
+        {
+          "section_index": "5",
+          "description": "Exterior waterproof outlets"
+        },
+        {
+          "section_index": "5",
+          "description": "Seamless aluminum gutters and downspouts"
+        },
+        {
+          "section_index": "5",
+          "description": "Sheathed with structurally engineered OSB and house wrap"
+        },
+        {
+          "section_index": "5",
+          "description": "Concrete drive and walkways"
+        },
+        {
+          "section_index": "5",
+          "description": "Two exterior hose bibs"
+        },
+        {
+          "section_index": "5",
+          "description": "Deadbolt locks on exterior doors"
+        },
+        {
+          "section_index": "6",
+          "description": "Legrand&reg; On-Q&reg; 30&rdquo; RF Transparent Structured Media&reg; Enclosure"
+        },
+        {
+          "section_index": "6",
+          "description": "Easily adjust and regulate the indoor temperature using Honeywell T6 Z-Wave Smart Thermostat"
+        },
+        {
+          "section_index": "6",
+          "description": "Schlage Encode Smart Wifi Deadbolt"
+        },
+        {
+          "section_index": "7",
+          "description": "50-gallon electric water heater"
+        },
+        {
+          "section_index": "7",
+          "description": "Double pane energy-efficient low-E windows (4/1 Design)"
+        },
+        {
+          "section_index": "7",
+          "description": "Insulated ductwork throughout"
+        },
+        {
+          "section_index": "7",
+          "description": "14-SEER cooling system"
+        },
+        {
+          "section_index": "7",
+          "description": "Programmable thermostats"
+        },
+        {
+          "section_index": "7",
+          "description": "Standard-efficiency economical gas heat"
+        },
+        {
+          "section_index": "7",
+          "description": "Energy efficient insulation"
+        },
+        {
+          "section_index": "7",
+          "description": "Expanded foam insulation applied at outlets and plumbing openings"
+        },
+        {
+          "section_index": "7",
+          "description": "Advanced air sealing techniques designed to increase comfort and indoor air quality"
+        },
+        {
+          "section_index": "7",
+          "description": "Continuous vent soffit system"
+        },
+        {
+          "section_index": "7",
+          "description": "Low-VOC paints"
+        },
+        {
+          "section_index": "8",
+          "description": "Lennar 1-2-10 Warranty"
+        },
+        {
+          "section_index": "8",
+          "description": "Independent 3rd party quality inspection on every home"
+        },
+        {
+          "section_index": "8",
+          "description": "Dedicated Customer Care service and program"
+        }
+      ],
+      "floorplan_images": [
+        {
+          "name": "1st Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/9c557dcf124c4a9ea618cbf3636742f1/sun_3037_fp_tyler_firstfloor_ow_102824.svg?d=20250220T223457"
+        },
+        {
+          "name": "2nd Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/9c557dcf124c4a9ea618cbf3636742f1/sun_3037_fp_tyler_secondfloor_ow.svg?d=20250220T223454"
+        }
+      ]
+    },
+    {
+      "name": "Hastings III",
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/highland-collection/hastings-iii",
+      "details": {
+        "price": "From $479,990.00",
+        "beds": "4 bd",
+        "baths": "3 ba",
+        "sqft": "3,127 ft²",
+        "status": "Actively selling",
+        "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/8634b31ca64848dd8a054a0f7b34df2b/sun_3209_highland_annandale_rend_hastingsiii_a.jpg"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "42\" cabinetry with crown molding and brushed nickel hardware"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel microwave (vented to exterior)"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel gas cooktop"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel undermount sink"
+        },
+        {
+          "section_index": "0",
+          "description": "Chrome faucet"
+        },
+        {
+          "section_index": "0",
+          "description": "Garbage disposal"
+        },
+        {
+          "section_index": "0",
+          "description": "Pantry storage"
+        },
+        {
+          "section_index": "1",
+          "description": "Adult-height vanity cabinets with 42\" mirror"
+        },
+        {
+          "section_index": "1",
+          "description": "Shower with ceramic tile walls at 7'4\" height"
+        },
+        {
+          "section_index": "1",
+          "description": "Elongated toilet"
+        },
+        {
+          "section_index": "2",
+          "description": "Adult-height vanity cabinets with 42\" mirror in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Matte cultured marble countertops in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Rectangular bowls and chrome faucets in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Ceramic tile flooring in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Shower and bathtub combination"
+        },
+        {
+          "section_index": "2",
+          "description": "Pedestal sink with chrome faucet in powder bathroom with a plate mirror"
+        },
+        {
+          "section_index": "2",
+          "description": "Elongated toilets"
+        },
+        {
+          "section_index": "3",
+          "description": "Washer and dryer hook-ups"
+        },
+        {
+          "section_index": "4",
+          "description": "9' smooth finish ceiling on main floor"
+        },
+        {
+          "section_index": "4",
+          "description": "9' ceilings on upper floor (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Luxury vinyl plank flooring runs throughout the main living areas (foyer, kitchen, dining, breakfast nook, powder room, family room, laundry room) (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Two-panel interior doors throughout"
+        },
+        {
+          "section_index": "4",
+          "description": "Satin nickel door hardware"
+        },
+        {
+          "section_index": "4",
+          "description": "5 &frac14;&rdquo; baseboards"
+        },
+        {
+          "section_index": "4",
+          "description": "3&frac14;&rdquo; casing around doors"
+        },
+        {
+          "section_index": "4",
+          "description": "Low profile surface-mounted LED fixtures"
+        },
+        {
+          "section_index": "4",
+          "description": "Structured wiring with two CAT-5 telephone network outlets and two cable outlets"
+        },
+        {
+          "section_index": "4",
+          "description": "Professionally designed interior color packages"
+        },
+        {
+          "section_index": "4",
+          "description": "Ceiling fan bracing in great room and all bedrooms"
+        },
+        {
+          "section_index": "4",
+          "description": "Overhead lighting"
+        },
+        {
+          "section_index": "4",
+          "description": "Ventilated wire shelves in closets and laundry"
+        },
+        {
+          "section_index": "4",
+          "description": "Smoke and carbon monoxide detectors throughout"
+        },
+        {
+          "section_index": "5",
+          "description": "Insulated fiberglass entry door"
+        },
+        {
+          "section_index": "5",
+          "description": "Monolithic slab foundation"
+        },
+        {
+          "section_index": "5",
+          "description": "240V 50AMP outlet in garage for future car charge"
+        },
+        {
+          "section_index": "5",
+          "description": "Professionally-designed landscape package"
+        },
+        {
+          "section_index": "5",
+          "description": "Drywall finished garage"
+        },
+        {
+          "section_index": "5",
+          "description": "Heavy-gauge steel garage door opener with two remotes"
+        },
+        {
+          "section_index": "5",
+          "description": "Exterior waterproof outlets"
+        },
+        {
+          "section_index": "5",
+          "description": "Seamless aluminum gutters and downspouts"
+        },
+        {
+          "section_index": "5",
+          "description": "Sheathed with structurally engineered OSB and house wrap"
+        },
+        {
+          "section_index": "5",
+          "description": "Concrete drive and walkways"
+        },
+        {
+          "section_index": "5",
+          "description": "Two exterior hose bibs"
+        },
+        {
+          "section_index": "5",
+          "description": "Deadbolt locks on exterior doors"
+        },
+        {
+          "section_index": "6",
+          "description": "Legrand&reg; On-Q&reg; 30&rdquo; RF Transparent Structured Media&reg; Enclosure"
+        },
+        {
+          "section_index": "6",
+          "description": "Easily adjust and regulate the indoor temperature using Honeywell T6 Z-Wave Smart Thermostat"
+        },
+        {
+          "section_index": "6",
+          "description": "Schlage Encode Smart Wifi Deadbolt"
+        },
+        {
+          "section_index": "7",
+          "description": "50-gallon electric water heater"
+        },
+        {
+          "section_index": "7",
+          "description": "Double pane energy-efficient low-E windows (4/1 Design)"
+        },
+        {
+          "section_index": "7",
+          "description": "Insulated ductwork throughout"
+        },
+        {
+          "section_index": "7",
+          "description": "14-SEER cooling system"
+        },
+        {
+          "section_index": "7",
+          "description": "Programmable thermostats"
+        },
+        {
+          "section_index": "7",
+          "description": "Standard-efficiency economical gas heat"
+        },
+        {
+          "section_index": "7",
+          "description": "Energy efficient insulation"
+        },
+        {
+          "section_index": "7",
+          "description": "Expanded foam insulation applied at outlets and plumbing openings"
+        },
+        {
+          "section_index": "7",
+          "description": "Advanced air sealing techniques designed to increase comfort and indoor air quality"
+        },
+        {
+          "section_index": "7",
+          "description": "Continuous vent soffit system"
+        },
+        {
+          "section_index": "7",
+          "description": "Low-VOC paints"
+        },
+        {
+          "section_index": "8",
+          "description": "Lennar 1-2-10 Warranty"
+        },
+        {
+          "section_index": "8",
+          "description": "Independent 3rd party quality inspection on every home"
+        },
+        {
+          "section_index": "8",
+          "description": "Dedicated Customer Care service and program"
+        }
+      ],
+      "floorplan_images": [
+        {
+          "name": "1st Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/8634b31ca64848dd8a054a0f7b34df2b/sun_3209_fp_hastingsiii_firstfloor_ow.svg?d=20250220T223450"
+        },
+        {
+          "name": "2nd Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/8634b31ca64848dd8a054a0f7b34df2b/sun_3209_fp_hastingsiii_secondfloor_ow.svg?d=20250220T223447"
+        }
+      ]
+    },
+    {
+      "name": "Marlette III",
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/highland-collection/marlette-iii",
+      "details": {
+        "price": "From $494,990.00",
+        "beds": "5 bd",
+        "baths": "4 ba",
+        "sqft": "3,507 ft²",
+        "status": "Actively selling",
+        "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/a7eb17f2023848c69b66ef99d8826cef/sun_3481_highland_annandale_rend_marlette_b.jpg"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "42\" cabinetry with crown molding and brushed nickel hardware"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel microwave (vented to exterior)"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel gas cooktop"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel undermount sink"
+        },
+        {
+          "section_index": "0",
+          "description": "Chrome faucet"
+        },
+        {
+          "section_index": "0",
+          "description": "Garbage disposal"
+        },
+        {
+          "section_index": "0",
+          "description": "Pantry storage"
+        },
+        {
+          "section_index": "1",
+          "description": "Adult-height vanity cabinets with 42\" mirror"
+        },
+        {
+          "section_index": "1",
+          "description": "Shower with ceramic tile walls at 7'4\" height"
+        },
+        {
+          "section_index": "1",
+          "description": "Elongated toilet"
+        },
+        {
+          "section_index": "2",
+          "description": "Adult-height vanity cabinets with 42\" mirror in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Matte cultured marble countertops in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Rectangular bowls and chrome faucets in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Ceramic tile flooring in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Shower and bathtub combination"
+        },
+        {
+          "section_index": "2",
+          "description": "Pedestal sink with chrome faucet in powder bathroom with a plate mirror"
+        },
+        {
+          "section_index": "2",
+          "description": "Elongated toilets"
+        },
+        {
+          "section_index": "3",
+          "description": "Washer and dryer hook-ups"
+        },
+        {
+          "section_index": "4",
+          "description": "9' smooth finish ceiling on main floor"
+        },
+        {
+          "section_index": "4",
+          "description": "9' ceilings on upper floor (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Luxury vinyl plank flooring runs throughout the main living areas (foyer, kitchen, dining, breakfast nook, powder room, family room, laundry room) (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Two-panel interior doors throughout"
+        },
+        {
+          "section_index": "4",
+          "description": "Satin nickel door hardware"
+        },
+        {
+          "section_index": "4",
+          "description": "5 &frac14;&rdquo; baseboards"
+        },
+        {
+          "section_index": "4",
+          "description": "3&frac14;&rdquo; casing around doors"
+        },
+        {
+          "section_index": "4",
+          "description": "Low profile surface-mounted LED fixtures"
+        },
+        {
+          "section_index": "4",
+          "description": "Structured wiring with two CAT-5 telephone network outlets and two cable outlets"
+        },
+        {
+          "section_index": "4",
+          "description": "Professionally designed interior color packages"
+        },
+        {
+          "section_index": "4",
+          "description": "Ceiling fan bracing in great room and all bedrooms"
+        },
+        {
+          "section_index": "4",
+          "description": "Overhead lighting"
+        },
+        {
+          "section_index": "4",
+          "description": "Ventilated wire shelves in closets and laundry"
+        },
+        {
+          "section_index": "4",
+          "description": "Smoke and carbon monoxide detectors throughout"
+        },
+        {
+          "section_index": "5",
+          "description": "Insulated fiberglass entry door"
+        },
+        {
+          "section_index": "5",
+          "description": "Monolithic slab foundation"
+        },
+        {
+          "section_index": "5",
+          "description": "240V 50AMP outlet in garage for future car charge"
+        },
+        {
+          "section_index": "5",
+          "description": "Professionally-designed landscape package"
+        },
+        {
+          "section_index": "5",
+          "description": "Drywall finished garage"
+        },
+        {
+          "section_index": "5",
+          "description": "Heavy-gauge steel garage door opener with two remotes"
+        },
+        {
+          "section_index": "5",
+          "description": "Exterior waterproof outlets"
+        },
+        {
+          "section_index": "5",
+          "description": "Seamless aluminum gutters and downspouts"
+        },
+        {
+          "section_index": "5",
+          "description": "Sheathed with structurally engineered OSB and house wrap"
+        },
+        {
+          "section_index": "5",
+          "description": "Concrete drive and walkways"
+        },
+        {
+          "section_index": "5",
+          "description": "Two exterior hose bibs"
+        },
+        {
+          "section_index": "5",
+          "description": "Deadbolt locks on exterior doors"
+        },
+        {
+          "section_index": "6",
+          "description": "Legrand&reg; On-Q&reg; 30&rdquo; RF Transparent Structured Media&reg; Enclosure"
+        },
+        {
+          "section_index": "6",
+          "description": "Easily adjust and regulate the indoor temperature using Honeywell T6 Z-Wave Smart Thermostat"
+        },
+        {
+          "section_index": "6",
+          "description": "Schlage Encode Smart Wifi Deadbolt"
+        },
+        {
+          "section_index": "7",
+          "description": "50-gallon electric water heater"
+        },
+        {
+          "section_index": "7",
+          "description": "Double pane energy-efficient low-E windows (4/1 Design)"
+        },
+        {
+          "section_index": "7",
+          "description": "Insulated ductwork throughout"
+        },
+        {
+          "section_index": "7",
+          "description": "14-SEER cooling system"
+        },
+        {
+          "section_index": "7",
+          "description": "Programmable thermostats"
+        },
+        {
+          "section_index": "7",
+          "description": "Standard-efficiency economical gas heat"
+        },
+        {
+          "section_index": "7",
+          "description": "Energy efficient insulation"
+        },
+        {
+          "section_index": "7",
+          "description": "Expanded foam insulation applied at outlets and plumbing openings"
+        },
+        {
+          "section_index": "7",
+          "description": "Advanced air sealing techniques designed to increase comfort and indoor air quality"
+        },
+        {
+          "section_index": "7",
+          "description": "Continuous vent soffit system"
+        },
+        {
+          "section_index": "7",
+          "description": "Low-VOC paints"
+        },
+        {
+          "section_index": "8",
+          "description": "Lennar 1-2-10 Warranty"
+        },
+        {
+          "section_index": "8",
+          "description": "Independent 3rd party quality inspection on every home"
+        },
+        {
+          "section_index": "8",
+          "description": "Dedicated Customer Care service and program"
+        }
+      ],
+      "floorplan_images": [
+        {
+          "name": "1st Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/7dde9ef7f8fe4077bd70de8f9034c11e/sun_3481_fp_marletteiii_firstfloor_overlay_cl.svg?d=20250220T032850"
+        },
+        {
+          "name": "2nd Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/7dde9ef7f8fe4077bd70de8f9034c11e/sun_3481_fp_marletteiii_secondfloor_overlay_clfl.svg?d=20250220T032853"
+        }
+      ]
+    },
+    {
+      "name": "Clayton III",
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/summit-collection/clayton-iii",
+      "details": {
+        "price": "From $399,990.00",
+        "beds": "3 bd",
+        "baths": "2 ba",
+        "sqft": "1,845 ft²",
+        "image_url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "42\" cabinetry with crown molding and brushed nickel hardware"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel microwave (vented to exterior)"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel gas cooktop"
+        },
+        {
+          "section_index": "0",
+          "description": "Stainless steel undermount sink"
+        },
+        {
+          "section_index": "0",
+          "description": "Chrome faucet"
+        },
+        {
+          "section_index": "0",
+          "description": "Garbage disposal"
+        },
+        {
+          "section_index": "0",
+          "description": "Pantry storage"
+        },
+        {
+          "section_index": "1",
+          "description": "Adult-height vanity cabinets with 42\" mirror"
+        },
+        {
+          "section_index": "1",
+          "description": "Shower with ceramic tile walls at 7'4\" height"
+        },
+        {
+          "section_index": "1",
+          "description": "Elongated toilet"
+        },
+        {
+          "section_index": "2",
+          "description": "Adult-height vanity cabinets with 42\" mirror in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Matte cultured marble countertops in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Rectangular bowls and chrome faucets in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Ceramic tile flooring in full-sized bathrooms"
+        },
+        {
+          "section_index": "2",
+          "description": "Shower and bathtub combination"
+        },
+        {
+          "section_index": "2",
+          "description": "Pedestal sink with chrome faucet in powder bathroom with a plate mirror"
+        },
+        {
+          "section_index": "2",
+          "description": "Elongated toilets"
+        },
+        {
+          "section_index": "3",
+          "description": "Washer and dryer hook-ups"
+        },
+        {
+          "section_index": "4",
+          "description": "9' smooth finish ceiling on main floor"
+        },
+        {
+          "section_index": "4",
+          "description": "9' ceilings on upper floor (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Luxury vinyl plank flooring runs throughout the main living areas (foyer, kitchen, dining, breakfast nook, powder room, family room, laundry room) (per plan)"
+        },
+        {
+          "section_index": "4",
+          "description": "Two-panel interior doors throughout"
+        },
+        {
+          "section_index": "4",
+          "description": "Satin nickel door hardware"
+        },
+        {
+          "section_index": "4",
+          "description": "5 &frac14;&rdquo; baseboards"
+        },
+        {
+          "section_index": "4",
+          "description": "3&frac14;&rdquo; casing around doors"
+        },
+        {
+          "section_index": "4",
+          "description": "Low profile surface-mounted LED fixtures"
+        },
+        {
+          "section_index": "4",
+          "description": "Structured wiring with two CAT-5 telephone network outlets and two cable outlets"
+        },
+        {
+          "section_index": "4",
+          "description": "Professionally designed interior color packages"
+        },
+        {
+          "section_index": "4",
+          "description": "Ceiling fan bracing in great room and all bedrooms"
+        },
+        {
+          "section_index": "4",
+          "description": "Overhead lighting"
+        },
+        {
+          "section_index": "4",
+          "description": "Ventilated wire shelves in closets and laundry"
+        },
+        {
+          "section_index": "4",
+          "description": "Smoke and carbon monoxide detectors throughout"
+        },
+        {
+          "section_index": "5",
+          "description": "Insulated fiberglass entry door"
+        },
+        {
+          "section_index": "5",
+          "description": "Monolithic slab foundation"
+        },
+        {
+          "section_index": "5",
+          "description": "240V 50AMP outlet in garage for future car charge"
+        },
+        {
+          "section_index": "5",
+          "description": "Professionally-designed landscape package"
+        },
+        {
+          "section_index": "5",
+          "description": "Drywall finished garage"
+        },
+        {
+          "section_index": "5",
+          "description": "Heavy-gauge steel garage door opener with two remotes"
+        },
+        {
+          "section_index": "5",
+          "description": "Exterior waterproof outlets"
+        },
+        {
+          "section_index": "5",
+          "description": "Seamless aluminum gutters and downspouts"
+        },
+        {
+          "section_index": "5",
+          "description": "Sheathed with structurally engineered OSB and house wrap"
+        },
+        {
+          "section_index": "5",
+          "description": "Concrete drive and walkways"
+        },
+        {
+          "section_index": "5",
+          "description": "Two exterior hose bibs"
+        },
+        {
+          "section_index": "5",
+          "description": "Deadbolt locks on exterior doors"
+        },
+        {
+          "section_index": "6",
+          "description": "Legrand&reg; On-Q&reg; 30&rdquo; RF Transparent Structured Media&reg; Enclosure"
+        },
+        {
+          "section_index": "6",
+          "description": "Easily adjust and regulate the indoor temperature using Honeywell T6 Z-Wave Smart Thermostat"
+        },
+        {
+          "section_index": "6",
+          "description": "Schlage Encode Smart Wifi Deadbolt"
+        },
+        {
+          "section_index": "7",
+          "description": "50-gallon electric water heater"
+        },
+        {
+          "section_index": "7",
+          "description": "Double pane energy-efficient low-E windows (4/1 Design)"
+        },
+        {
+          "section_index": "7",
+          "description": "Insulated ductwork throughout"
+        },
+        {
+          "section_index": "7",
+          "description": "14-SEER cooling system"
+        },
+        {
+          "section_index": "7",
+          "description": "Programmable thermostats"
+        },
+        {
+          "section_index": "7",
+          "description": "Standard-efficiency economical gas heat"
+        },
+        {
+          "section_index": "7",
+          "description": "Energy efficient insulation"
+        },
+        {
+          "section_index": "7",
+          "description": "Expanded foam insulation applied at outlets and plumbing openings"
+        },
+        {
+          "section_index": "7",
+          "description": "Advanced air sealing techniques designed to increase comfort and indoor air quality"
+        },
+        {
+          "section_index": "7",
+          "description": "Continuous vent soffit system"
+        },
+        {
+          "section_index": "7",
+          "description": "Low-VOC paints"
+        },
+        {
+          "section_index": "8",
+          "description": "Lennar 1-2-10 Warranty"
+        },
+        {
+          "section_index": "8",
+          "description": "Independent 3rd party quality inspection on every home"
+        },
+        {
+          "section_index": "8",
+          "description": "Dedicated Customer Care service and program"
+        }
+      ],
+      "floorplan_images": [
+        {
+          "name": "1st Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/94facce38c1048cebe82b58af309fb79/sun_1826_fp_claytoniii_overlay.svg?d=20250220T032624"
+        },
+        {
+          "name": "2nd Floor Floorplan",
+          "image_url": "https://cdn-stg.lennar.net/api/images/contentassets/94facce38c1048cebe82b58af309fb79/sun_1826_fp_claytoniii_f2_optional_secondfloor.svg?d=20250220T032627"
+        }
+      ]
+    }
+  ],
+  "homesites": [ // 房源，为json数组，请尽量获取房源信息
+    {
+      "name": "211 Tennyson Dr", // 若房源无名称，使用房源地址
+      "plan": "Landrum III", // 对应的户型名称，用于数据匹配
+      "id": "28369600237",  // 无实际意义
+      "address": "211 Tennyson Dr, Garner, NC", // 房源地址，尽量
+      "price": "$476,380", // 价格，可以含$和,
+      "beds": "5", // 卧室数量
+      "baths": 3, // bath数量
+      "sqft": "2,619", // 面积
+      "status": "Move-in Ready", //出售状态
+      "image_url": null, 
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/summit-collection/landrum-iii/28369600237", // 页面地址
+      "latitude": 35.57272, // 经纬度
+      "longitude": -78.55551, // overview为房源介绍信息
+      "overview": "This new two-story home has ample space for the whole family. The first floor has an open layout among the family room, breakfast nook and kitchen, while a formal dining room by the entrance and a back patio offer additional hosting options. On the same level is a versatile bedroom ideal for overnight visitors. Upstairs are a game room and four bedrooms, including the owner’s suite with a spa-style bathroom.",
+      "images": [ // 房源图片，数组，可以为多张
+        "https://cdn-stg.lennar.net/api/images/contentassets/5b240f87ee06422189aa49c583c7de95/copy-of-sun_2629_summit_triplecrown_rend_landrum_iii_f.jpg?d=20250220T223506"
+      ]
+    },
+    {
+      "name": null,
+      "plan": "Hastings III",
+      "id": "28370600161",
+      "address": "245 E Fountainhead Ln",
+      "price": "$561,895",
+      "beds": "4",
+      "baths": 3,
+      "sqft": "3,127",
+      "status": "Move-in Ready",
+      "image_url": null,
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/highland-collection/hastings-iii/28370600161",
+      "latitude": 35.57272,
+      "longitude": -78.55551,
+      "overview": "This expansive two-story home features a flex room and formal dining room bordering the foyer, followed by an open-concept main living area to promote simplified everyday living. Along with a first-floor bedroom ideal for overnight guests. Upstairs is sprawling owner’s suite with a spa-style bathroom, two secondary bedrooms and a spacious game room. ",
+      "images": [
+        "https://cdn-stg.lennar.net/api/images/contentassets/8634b31ca64848dd8a054a0f7b34df2b/sun_3209_highland_annandale_rend_hastingsiii_c.jpg?d=20250220T223448"
+      ]
+    },
+    {
+      "name": null,
+      "plan": "Tyler",
+      "id": "28370600168",
+      "address": "224 E Fountainhead Ln",
+      "price": "Tyler",
+      "beds": "5",
+      "baths": 4,
+      "sqft": "3,006",
+      "status": "Move-in Ready",
+      "image_url": null,
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/highland-collection/tyler/28370600168",
+      "latitude": 35.57272,
+      "longitude": -78.55551,
+      "overview": null,
+      "images": []
+    },
+    {
+      "name": null,
+      "plan": "Mayflower III",
+      "id": "28369600233",
+      "address": "111 Tennyson Dr",
+      "price": "Mayflower III",
+      "beds": "4",
+      "baths": 3,
+      "sqft": "2,472",
+      "status": null,
+      "image_url": null,
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/summit-collection/mayflower-iii/28369600233",
+      "latitude": 35.57272,
+      "longitude": -78.55551,
+      "overview": "This new two-story home is a family haven in all seasons. The main level has an open space among the family room, a kitchen, a dining room, along with a private study and a bedroom ideal for guests. An attached patio is perfect for morning coffee and evening meals. All the upstairs bedrooms have walk-in closets, while a loft adds versatility.",
+      "images": [
+        "https://cdn-stg.lennar.net/api/images/contentassets/a7fdbba73f1c45f3b8f5469ad9632b19/copy-of-sun_2481_summit_triplecrown_rend_mayflower_iii_e.jpg?d=20250220T223513"
+      ]
+    },
+    {
+      "name": null,
+      "plan": "Mayflower III",
+      "id": "28369600231",
+      "address": "65 Tennyson Dr",
+      "price": "Mayflower III",
+      "beds": "4",
+      "baths": 3,
+      "sqft": "2,472",
+      "status": null,
+      "image_url": null,
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/summit-collection/mayflower-iii/28369600231",
+      "latitude": 35.57272,
+      "longitude": -78.55551,
+      "overview": "This new two-story home is a family haven in all seasons. The main level has an open space among the family room, a kitchen, a dining room, along with a private study and a bedroom ideal for guests. An attached patio is perfect for morning coffee and evening meals. All the upstairs bedrooms have walk-in closets, while a loft adds versatility.",
+      "images": [
+        "https://cdn-stg.lennar.net/api/images/contentassets/a7fdbba73f1c45f3b8f5469ad9632b19/copy-of-sun_2481_summit_triplecrown_rend_mayflower_iii_f.jpg?d=20250220T223513"
+      ]
+    },
+    {
+      "name": null,
+      "plan": "Landrum III",
+      "id": "28369600239",
+      "address": "247 Tennyson Dr",
+      "price": "Landrum III",
+      "beds": "5",
+      "baths": 3,
+      "sqft": "2,619",
+      "status": null,
+      "image_url": null,
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/summit-collection/landrum-iii/28369600239",
+      "latitude": 35.57272,
+      "longitude": -78.55551,
+      "overview": "This new two-story home has ample space for the whole family. The first floor has an open layout among the family room, breakfast nook and kitchen, while a formal dining room by the entrance and a back patio offer additional hosting options. On the same level is a versatile bedroom ideal for overnight visitors. Upstairs are a game room and four bedrooms, including the owner’s suite with a spa-style bathroom.",
+      "images": [
+        "https://cdn-stg.lennar.net/api/images/contentassets/5b240f87ee06422189aa49c583c7de95/copy-of-sun_2629_summit_triplecrown_rend_landrum_iii_c.jpg?d=20250220T223505"
+      ]
+    },
+    {
+      "name": null,
+      "plan": "Tyler",
+      "id": "28370600198",
+      "address": "43 W. Fountainhead Ln",
+      "price": "Tyler",
+      "beds": "5",
+      "baths": 4,
+      "sqft": "3,006",
+      "status": null,
+      "image_url": null,
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/highland-collection/tyler/28370600198",
+      "latitude": 35.57272,
+      "longitude": -78.55551,
+      "overview": "Exuding sophistication and luxury, this expansive home presents two stories of gracious living space. On the first floor is an inviting family room, chef-ready kitchen and a breakfast nook with direct access to a patio. It’s framed by a practical study, formal dining room and a versatile bedroom well-suited for overnight guests. Upstairs is a sprawling owner’s suite, three secondary bedrooms and a spacious game room to entertain gatherings.",
+      "images": [
+        "https://cdn-stg.lennar.net/api/images/contentassets/9c557dcf124c4a9ea618cbf3636742f1/sun_3037_highland_annandale_rend_tyler_b.jpg?d=20250220T223456"
+      ]
+    },
+    {
+      "name": null,
+      "plan": "Hastings III",
+      "id": "28370600164",
+      "address": "293 E Fountainhead Ln",
+      "price": "Hastings III",
+      "beds": "4",
+      "baths": 3,
+      "sqft": "3,127",
+      "status": null,
+      "image_url": null,
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/highland-collection/hastings-iii/28370600164",
+      "latitude": 35.57272,
+      "longitude": -78.55551,
+      "overview": "This expansive two-story home features a flex room and formal dining room bordering the foyer, followed by an open-concept main living area to promote simplified everyday living. Along with a first-floor bedroom ideal for overnight guests. Upstairs is sprawling owner’s suite with a spa-style bathroom, two secondary bedrooms and a spacious game room. ",
+      "images": [
+        "https://cdn-stg.lennar.net/api/images/contentassets/8634b31ca64848dd8a054a0f7b34df2b/sun_3209_highland_annandale_rend_hastingsiii_d.jpg?d=20250220T223448"
+      ]
+    },
+    {
+      "name": null,
+      "plan": "Marlette III",
+      "id": "28370600189",
+      "address": "86 E Fountainhead Ln",
+      "price": "Marlette III",
+      "beds": "5",
+      "baths": 4,
+      "sqft": "3,507",
+      "status": null,
+      "image_url": null,
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/highland-collection/marlette-iii/28370600189",
+      "latitude": 35.57272,
+      "longitude": -78.55551,
+      "overview": "This two-story home is the largest plan in the collection. Off the foyer is a spacious flex room and formal dining room, followed by an open main living area and a patio for outdoor living. Ideal for overnight guests is a first-floor bedroom. Upstairs is the luxurious owner’s suite, three secondary bedrooms and a generous game room with endless possibilities. ",
+      "images": [
+        "https://cdn-stg.lennar.net/api/images/contentassets/a7eb17f2023848c69b66ef99d8826cef/sun_3481_highland_annandale_rend_marlette_g.jpg?d=20250220T223453"
+      ]
+    },
+    {
+      "name": null,
+      "plan": "Marlette III",
+      "id": "28370600188",
+      "address": "108 E Fountainhead Ln",
+      "price": "Marlette III",
+      "beds": "5",
+      "baths": 4,
+      "sqft": "3,507",
+      "status": null,
+      "image_url": null,
+      "url": "/new-homes/north-carolina/raleigh/garner/annandale/highland-collection/marlette-iii/28370600188",
+      "latitude": 35.57272,
+      "longitude": -78.55551,
+      "overview": "This two-story home is the largest plan in the collection. Off the foyer is a spacious flex room and formal dining room, followed by an open main living area and a patio for outdoor living. Ideal for overnight guests is a first-floor bedroom. Upstairs is the luxurious owner’s suite, three secondary bedrooms and a generous game room with endless possibilities. ",
+      "images": [
+        "https://cdn-stg.lennar.net/api/images/contentassets/a7eb17f2023848c69b66ef99d8826cef/sun_3481_highland_annandale_rend_marlette_g.jpg?d=20250220T223453"
+      ]
+    }
+  ],
+  "nearbyplaces": [  // 附近商场或者设施
+    {
+      "name": "Hungry Howie's Pizza",
+      "category": "Food & Dining",
+      "distance": "1.4 mi",
+      "rating": 4.0,
+      "reviews": 117
+    },
+    {
+      "name": "3 Olives Pizza & Deli",
+      "category": "Food & Dining",
+      "distance": "0.8 mi",
+      "rating": 4.1,
+      "reviews": 445
+    },
+    {
+      "name": "Hungry Howie's Pizza",
+      "category": "Food & Dining",
+      "distance": "1.4 mi",
+      "rating": 4.0,
+      "reviews": 117
+    },
+    {
+      "name": "J-Top's BBQ Shop",
+      "category": "Food & Dining",
+      "distance": "1.6 mi",
+      "rating": 4.6,
+      "reviews": 354
+    },
+    {
+      "name": "3 Olives Pizza & Deli",
+      "category": "Food & Dining",
+      "distance": "0.8 mi",
+      "rating": 4.1,
+      "reviews": 445
+    },
+    {
+      "name": "Subway",
+      "category": "Food & Dining",
+      "distance": "1.6 mi",
+      "rating": 3.7,
+      "reviews": 139
+    },
+    {
+      "name": "Hungry Howie's Pizza",
+      "category": "Food & Dining",
+      "distance": "1.4 mi",
+      "rating": 4.0,
+      "reviews": 117
+    },
+    {
+      "name": "Guajillo's Mexican Grill",
+      "category": "Food & Dining",
+      "distance": "1.6 mi",
+      "rating": 4.8,
+      "reviews": 178
+    },
+    {
+      "name": "J-Top's BBQ Shop",
+      "category": "Food & Dining",
+      "distance": "1.6 mi",
+      "rating": 4.6,
+      "reviews": 354
+    },
+    {
+      "name": "3 Olives Pizza & Deli",
+      "category": "Food & Dining",
+      "distance": "0.8 mi",
+      "rating": 4.1,
+      "reviews": 445
+    },
+    {
+      "name": "Hardee’s",
+      "category": "Food & Dining",
+      "distance": "0.9 mi",
+      "rating": 3.7,
+      "reviews": 306
+    },
+    {
+      "name": "Great China",
+      "category": "Food & Dining",
+      "distance": "1.3 mi",
+      "rating": 3.6,
+      "reviews": 225
+    },
+    {
+      "name": "I Heart Mac & Cheese - Clayton, NC",
+      "category": "Food & Dining",
+      "distance": "1.4 mi",
+      "rating": 3.7,
+      "reviews": 102
+    },
+    {
+      "name": "Subway",
+      "category": "Food & Dining",
+      "distance": "1.6 mi",
+      "rating": 3.7,
+      "reviews": 139
+    },
+    {
+      "name": "Taqueria Mi Palmar",
+      "category": "Food & Dining",
+      "distance": "1.4 mi",
+      "rating": 4.8,
+      "reviews": 48
+    },
+    {
+      "name": "Taco Miendo Bar, Grill, & Pizzeria",
+      "category": "Food & Dining",
+      "distance": "1.5 mi",
+      "rating": 3.8,
+      "reviews": 15
+    },
+    {
+      "name": "The American Wildlife Refuge",
+      "category": "Recreation",
+      "distance": "1.7 mi",
+      "rating": 4.6,
+      "reviews": 10
+    },
+    {
+      "name": "Food Lion",
+      "category": "Shopping",
+      "distance": "1.4 mi",
+      "rating": 4.4,
+      "reviews": 894
+    },
+    {
+      "name": "Draft & Vine",
+      "category": "Shopping",
+      "distance": "1.4 mi",
+      "rating": 4.7,
+      "reviews": 150
+    },
+    {
+      "name": "Dollar General",
+      "category": "Shopping",
+      "distance": "0.8 mi",
+      "rating": 4.0,
+      "reviews": 370
+    },
+    {
+      "name": "HealthSmart Pharmacy",
+      "category": "Shopping",
+      "distance": "1.3 mi",
+      "rating": 4.6,
+      "reviews": 104
+    },
+    {
+      "name": "3 Olives Pizza & Deli",
+      "category": "Shopping",
+      "distance": "0.8 mi",
+      "rating": 4.1,
+      "reviews": 445
+    },
+    {
+      "name": "RPM Motorsports",
+      "category": "Shopping",
+      "distance": "1.6 mi",
+      "rating": 4.6,
+      "reviews": 146
+    },
+    {
+      "name": "Cleveland Vape & Tobacco & convenience store",
+      "category": "Shopping",
+      "distance": "0.9 mi",
+      "rating": 4.7,
+      "reviews": 41
+    },
+    {
+      "name": "Pelican's Snoballs 40/42",
+      "category": "Shopping",
+      "distance": "1.4 mi",
+      "rating": 4.6,
+      "reviews": 234
+    },
+    {
+      "name": "Creech Auto Sales",
+      "category": "Shopping",
+      "distance": "0.9 mi",
+      "rating": 4.2,
+      "reviews": 102
+    },
+    {
+      "name": "JDS Supply",
+      "category": "Shopping",
+      "distance": "1.7 mi",
+      "rating": 4.9,
+      "reviews": 11
+    },
+    {
+      "name": "Sandhu's Cleveland Emporium",
+      "category": "Shopping",
+      "distance": "1.5 mi",
+      "rating": 4.2,
+      "reviews": 94
+    },
+    {
+      "name": "Amu Motors",
+      "category": "Shopping",
+      "distance": "0.8 mi",
+      "rating": 4.2,
+      "reviews": 39
+    },
+    {
+      "name": "MTI Auto Sales Inc.",
+      "category": "Shopping",
+      "distance": "1.1 mi",
+      "rating": 4.6,
+      "reviews": 37
+    },
+    {
+      "name": "United Textile Distribution",
+      "category": "Shopping",
+      "distance": "1.6 mi",
+      "rating": 5.0,
+      "reviews": 2
+    },
+    {
+      "name": "DecorAlemaru",
+      "category": "Shopping",
+      "distance": "0.3 mi",
+      "rating": 5.0,
+      "reviews": 5
+    },
+    {
+      "name": "New Life Taxidermy & Guns",
+      "category": "Shopping",
+      "distance": "2.0 mi",
+      "rating": 4.2,
+      "reviews": 9
+    },
+    {
+      "name": "Environmental Restoration, LLC",
+      "category": "Shopping",
+      "distance": "1.6 mi",
+      "rating": 2.0,
+      "reviews": 1
+    }
+  ],
+  "collections": [ // 小区包含的系列，它会包含附近的学校信息，请按格式添加
+    {
+      "name": "Summit Collection",
+      "id": "0",
+      "isActive": true,
+      "nearbySchools": [
+        {
+          "name": "Cleveland Elementary School",
+          "type_and_grades": "Public PK, K-5",
+          "district": "Johnston County Schools",
+          "grade": "B+",
+          "ranking": "View on Niche.com",
+          "niche_link": "https://www.niche.com/k12/cleveland-elementary-school-clayton-nc/"
+        },
+        {
+          "name": "Cleveland Middle School",
+          "type_and_grades": "Public 6-8",
+          "district": "Johnston County Schools",
+          "grade": "B+",
+          "ranking": "View on Niche.com",
+          "niche_link": "https://www.niche.com/k12/cleveland-middle-school-garner-nc/"
+        },
+        {
+          "name": "West Johnston High School",
+          "type_and_grades": "Public 9-12",
+          "district": "Johnston County Schools",
+          "grade": "B-",
+          "ranking": "View on Niche.com",
+          "niche_link": "https://www.niche.com/k12/west-johnston-high-school-benson-nc/"
+        }
+      ]
+    },
+    {
+      "name": "Highland Collection",
+      "id": "1",
+      "isActive": false,
+      "nearbySchools": [
+        {
+          "name": "Cleveland Elementary School",
+          "type_and_grades": "Public PK, K-5",
+          "district": "Johnston County Schools",
+          "grade": "B+",
+          "ranking": "View on Niche.com",
+          "niche_link": "https://www.niche.com/k12/cleveland-elementary-school-clayton-nc/"
+        },
+        {
+          "name": "Cleveland Middle School",
+          "type_and_grades": "Public 6-8",
+          "district": "Johnston County Schools",
+          "grade": "B+",
+          "ranking": "View on Niche.com",
+          "niche_link": "https://www.niche.com/k12/cleveland-middle-school-garner-nc/"
+        },
+        {
+          "name": "West Johnston High School",
+          "type_and_grades": "Public 9-12",
+          "district": "Johnston County Schools",
+          "grade": "B-",
+          "ranking": "View on Niche.com",
+          "niche_link": "https://www.niche.com/k12/west-johnston-high-school-benson-nc/"
+        }
+      ]
+    }
+  ]
+}
