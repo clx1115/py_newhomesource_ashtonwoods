@@ -1,0 +1,612 @@
+{
+  "timestamp": "2025-06-20T10:11:36.910004",
+  "url": "https://www.ashtonwoods.com/dallas/devonshire",
+  "builder": "Ashton Woods",
+  "status": null,
+  "name": "Devonshire",
+  "price_from": "$301K-$443K",
+  "address": "1709 Coachman Drive, Forney, TX 75126",
+  "location": {
+    "latitude": 33.3539,
+    "longitude": -112.1597,
+    "address": {
+      "city": "Forney",
+      "state": "TX",
+      "market": "Phoenix"
+    }
+  },
+  "phone": null,
+  "description": "Introducing Ashton Woods master-planned community, Devonshire, located just 24 miles from downtown Dallas TX, near US-80 and HWY-548, in Forney, Texas 75126. Discover this premier master-planned community in the country without leaving the conveniences of city life. Devonshire is a large scale amenitized community with easy access to major employment corridors, major roadways and commuter roads, daily conveniences, and recreation. This new home community offers a resort-style clubhouse, pool complex, ponds, hike and bike trails, playgrounds, dog park, sport courts, amphitheater and so much more. Located in the highly sought-after Forney Independent School District, this new home community is ideal for growing families, singles, empty nesters, and professionals. New Ashton Woods homes situated on 40ft and 50ft wide single-family home sites offers one and two-story home designs. Here, at Devonshire, you can choose from a variety of home plans that fit you and your lifestyle. Then, you'll see personalized touches through refined Ashton Woods Collections. Just choose the home that best reflects your style and the extraordinary life you live. It's that simple. With Ashton Woods Collections, your home's design isn't just beautiful - it's simply exceptional. Together, you'll find a new home that's a reflection of you and your family's personal sense of style. Whether inspired by the fun-filled amenities or the close-knit community feel, you'll love the possibilities at Devonshire.",
+  "images": [
+    "https://awh.widen.net/content/u9ngkqfoyk/web/transfer_DAL_D302_Grayson_ELEV_DAY_4_M3La59Y.jpg?w=1552&h=620&crop=yes&quality=80"
+  ],
+  "homeplans": [
+    {
+      "name": "Bell",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-40s/devonshire-40s-bell",
+      "details": {
+        "price": "$301K",
+        "beds": "3",
+        "baths": "2",
+        "sqft": "1534",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/te0ux5wwgh/web/transfer_1422Martingale_4BRzZNx.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "One-Story Home Plan"
+        },
+        {
+          "section_index": "1",
+          "description": "Open Kitchen-Living-Dining"
+        },
+        {
+          "section_index": "2",
+          "description": "Large Walk-in Storage Pantry"
+        },
+        {
+          "section_index": "3",
+          "description": "Covered Patio"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Heath",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-40s/devonshire-40s-heath",
+      "details": {
+        "price": "$312K",
+        "beds": "3",
+        "baths": "2",
+        "sqft": "1589",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/raofkjrki1/web/transfer_2.-1436-Martingale---Front_3kZ2MqR.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Island Kitchen"
+        },
+        {
+          "section_index": "1",
+          "description": "Open Kitchen-Living-Dining"
+        },
+        {
+          "section_index": "2",
+          "description": "Solid Surface Countertops"
+        },
+        {
+          "section_index": "3",
+          "description": "Covered Patio"
+        },
+        {
+          "section_index": "4",
+          "description": "Whirlpool Stainless Steel Appliances"
+        },
+        {
+          "section_index": "5",
+          "description": "Covered Front Porch"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Blanton",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-40s/devonshire-40s-blanton",
+      "details": {
+        "price": "$342K",
+        "beds": "4",
+        "baths": "2.5",
+        "sqft": "2069",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/xhiejn2t2f/web/transfer_02.-1456-Martingale---Front_r9WpQWm.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "First-Floor Primary Suite"
+        },
+        {
+          "section_index": "1",
+          "description": "Open Kitchen-Living-Dining"
+        },
+        {
+          "section_index": "2",
+          "description": "Second-Floor Loft"
+        },
+        {
+          "section_index": "3",
+          "description": "Covered Patio"
+        },
+        {
+          "section_index": "4",
+          "description": "Island Kitchen"
+        },
+        {
+          "section_index": "5",
+          "description": "Whirlpool Stainless Steel Appliances"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Coleman",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-50s/devonshire-50s-coleman",
+      "details": {
+        "price": "$351K",
+        "beds": "4",
+        "baths": "2",
+        "sqft": "1871",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/fcfgaxuj9z/original/transfer_willowsprings_WVrBpD1.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Solid Surface Countertops"
+        },
+        {
+          "section_index": "1",
+          "description": "One-Story Home Plan"
+        },
+        {
+          "section_index": "2",
+          "description": "Open Kitchen-Living-Dining"
+        },
+        {
+          "section_index": "3",
+          "description": "Covered Patio"
+        },
+        {
+          "section_index": "4",
+          "description": "Vaulted Ceilings"
+        },
+        {
+          "section_index": "5",
+          "description": "Island Kitchen"
+        },
+        {
+          "section_index": "6",
+          "description": "Whirlpool Stainless Steel Appliances"
+        },
+        {
+          "section_index": "7",
+          "description": "8 foot front door"
+        },
+        {
+          "section_index": "8",
+          "description": "Smart Home"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Kaufman",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-40s/devonshire-40s-kaufman",
+      "details": {
+        "price": "$357K",
+        "beds": "3",
+        "baths": "2.5",
+        "sqft": "2191",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/k9jbjqsg2y/web/transfer_02.-1438-Martingale---Front_YWa62wL.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Open Kitchen-Living-Dining"
+        },
+        {
+          "section_index": "1",
+          "description": "Island Kitchen"
+        },
+        {
+          "section_index": "2",
+          "description": "Second-Floor Loft"
+        },
+        {
+          "section_index": "3",
+          "description": "Covered Patio"
+        },
+        {
+          "section_index": "4",
+          "description": "Whirlpool Stainless Steel Appliances"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Bowie",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-50s/devonshire-50s-bowie",
+      "details": {
+        "price": "$359K",
+        "beds": "4",
+        "baths": "2",
+        "sqft": "1980",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/2kcrpa2ifv/web/transfer_3404-Beebalm-_-Front-_2__v99yLyj.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "One-Story Home Plan"
+        },
+        {
+          "section_index": "1",
+          "description": "Open Kitchen-Living-Dining"
+        },
+        {
+          "section_index": "2",
+          "description": "Home Office Option"
+        },
+        {
+          "section_index": "3",
+          "description": "Walk-In Closets"
+        },
+        {
+          "section_index": "4",
+          "description": "Island Kitchen"
+        },
+        {
+          "section_index": "5",
+          "description": "Covered Patio"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "McKellar",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-40s/devonshire-40s-mckellar",
+      "details": {
+        "price": "$360K",
+        "beds": "4",
+        "baths": "2.5",
+        "sqft": "2282",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/m1zsxsh8uu/web/transfer_02.-1444-Martingale---Front_v9Nqx4g.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "First-Floor Primary Suite"
+        },
+        {
+          "section_index": "1",
+          "description": "Game Room"
+        },
+        {
+          "section_index": "2",
+          "description": "Covered Patio"
+        },
+        {
+          "section_index": "3",
+          "description": "Island Kitchen"
+        },
+        {
+          "section_index": "4",
+          "description": "Whirlpool Stainless Steel Appliances"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Willett",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-40s/devonshire-40s-willett",
+      "details": {
+        "price": "$365K",
+        "beds": "5",
+        "baths": "4",
+        "sqft": "2546",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/oldakshkvj/original/transfer_Willett-A-Gen3-elev_DAY-filter_bwzOqVN.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Open Kitchen-Living-Dining"
+        },
+        {
+          "section_index": "1",
+          "description": "Island Kitchen"
+        },
+        {
+          "section_index": "2",
+          "description": "Covered Patio"
+        },
+        {
+          "section_index": "3",
+          "description": "First-Floor Guest Room"
+        },
+        {
+          "section_index": "4",
+          "description": "Whirlpool Stainless Steel Appliances"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Knox",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-50s/devonshire-50s-knox",
+      "details": {
+        "price": "$377K",
+        "beds": "3–4",
+        "baths": "2.5",
+        "sqft": "2128",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/quqrixkcki/web/transfer_1504GentleCreek_r9Dxawm.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Primary Suite on First Floor"
+        },
+        {
+          "section_index": "1",
+          "description": "Open Kitchen-Living-Dining"
+        },
+        {
+          "section_index": "2",
+          "description": "Covered Patio"
+        },
+        {
+          "section_index": "3",
+          "description": "Kitchen Island"
+        },
+        {
+          "section_index": "4",
+          "description": "Gameroom"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Cates",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-40s/devonshire-40s-cates",
+      "details": {
+        "price": "$384K",
+        "beds": "5",
+        "baths": "4",
+        "sqft": "2780",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/vo9cmo1ged/web/transfer_405WaterhouseLakeDrive_D3Xgn1z.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "First-Floor Primary Suite"
+        },
+        {
+          "section_index": "1",
+          "description": "First-Floor Guest Suite"
+        },
+        {
+          "section_index": "2",
+          "description": "Covered Patio"
+        },
+        {
+          "section_index": "3",
+          "description": "Gameroom"
+        },
+        {
+          "section_index": "4",
+          "description": "Island Kitchen"
+        },
+        {
+          "section_index": "5",
+          "description": "Whirlpool Stainless Steel Appliances"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Crockett",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-50s/devonshire-50s-crockett",
+      "details": {
+        "price": "$387K",
+        "beds": "4",
+        "baths": "2–3",
+        "sqft": "2252",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/24ntufcp1p/web/transfer_1.-13532-Brisky---Front_k3g64yV.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "One-Story Home Plan"
+        },
+        {
+          "section_index": "1",
+          "description": "Open Kitchen-Living-Dining"
+        },
+        {
+          "section_index": "2",
+          "description": "Expansive Flex Room"
+        },
+        {
+          "section_index": "3",
+          "description": "Separate Guest Bedroom"
+        },
+        {
+          "section_index": "4",
+          "description": "Vaulted Ceilings"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Grayson",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-50s/devonshire-50s-grayson",
+      "details": {
+        "price": "$404K",
+        "beds": "4",
+        "baths": "2–3.5",
+        "sqft": "2628–2705",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/3s6s0uio9a/web/transfer_DAL_256_Grayson_ELEV_Dusk_6Xmrjrb.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Gameroom"
+        },
+        {
+          "section_index": "1",
+          "description": "Solid Surface Countertops"
+        },
+        {
+          "section_index": "2",
+          "description": "First-Floor Primary Suite"
+        },
+        {
+          "section_index": "3",
+          "description": "Open Kitchen-Living-Dining"
+        },
+        {
+          "section_index": "4",
+          "description": "Island Kitchen"
+        },
+        {
+          "section_index": "5",
+          "description": "Covered Patio"
+        },
+        {
+          "section_index": "6",
+          "description": "Optional Home Office"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Henderson",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-50s/devonshire-50s-henderson",
+      "details": {
+        "price": "$421K",
+        "beds": "5",
+        "baths": "3",
+        "sqft": "2855",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/zknt8o3ksy/web/transfer_2.-1505-Bridal-Path-_-Front_xNa4vBg.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Formal Dining Room"
+        },
+        {
+          "section_index": "1",
+          "description": "Large Loft & Flex Room"
+        },
+        {
+          "section_index": "2",
+          "description": "Island Kitchen"
+        },
+        {
+          "section_index": "3",
+          "description": "Whirlpool Stainless Steel Appliances"
+        },
+        {
+          "section_index": "4",
+          "description": "Covered Patio"
+        },
+        {
+          "section_index": "5",
+          "description": "Optional Home Office"
+        },
+        {
+          "section_index": "6",
+          "description": "Walk- In Closets"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Caldwell",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-50s/devonshire-50s-caldwell",
+      "details": {
+        "price": "$443K",
+        "beds": "5",
+        "baths": "2–3.5",
+        "sqft": "3155",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/6wd3epboa3/web/transfer_13537-Gafford---Front-2_nMMBY2L.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Expansive Game Room"
+        },
+        {
+          "section_index": "1",
+          "description": "First-Floor Primary Suite"
+        },
+        {
+          "section_index": "2",
+          "description": "Breakfast Nook and Formal Dining Room"
+        },
+        {
+          "section_index": "3",
+          "description": "Island Kitchen"
+        },
+        {
+          "section_index": "4",
+          "description": "Covered Patio"
+        },
+        {
+          "section_index": "5",
+          "description": "Open Concept Kitchen-Living"
+        },
+        {
+          "section_index": "6",
+          "description": "Home Office with Storage"
+        }
+      ],
+      "floorplan_images": []
+    }
+  ],
+  "homesites": [
+    {
+      "name": "mill LANE , Laveen, AZ",
+      "plan": "Knox",
+      "id": "1",
+      "address": "mill LANE , Laveen, AZ 85339",
+      "price": "$375,000 Price Reduced",
+      "beds": "3",
+      "baths": "2.5",
+      "sqft": "2128",
+      "status": "Move-in Ready",
+      "image_url": "https://awh.widen.net/content/6oy9nmxbcw/web/cms_1.png_Q9lGbmj.png?w=630&h=408&crop=yes&quality=80",
+      "url": "https://www.ashtonwoods.com/dallas/devonshire-50s/devonshire-50s-knox/1905-bobbin-mill-lane",
+      "latitude": 33.3539,
+      "longitude": -112.1597,
+      "overview": "Welcome to this stunning two-story home by Ashton Woods in amenity rich community, Devonshire. Designed with the Minimalist collection, this home features a warm contemporary pallette. The open kitchen-living-dining area takes center stage in this home. In the kitchen you will find a large, eat-in kitchen island, stainless steel appliances, and a walk-in storage pantry. The primary first-floor suite features a spacious walk-in shower, dual vanity sinks, a luxurious garden tub, and an ample walk-in closet. Upstairs, two secondary bedrooms with a shared bathroom surround the expansive game room. With a landscape package, sprinkler system, and smart home wiring, this home offers modern amenities that blend functionality and peace of mind.",
+      "images": [
+        "https://awh.widen.net/content/6oy9nmxbcw/web/cms_1.png_Q9lGbmj.png?w=630&h=408&crop=yes&quality=80",
+        "https://awh.widen.net/content/qanyqpoklq/web/DAL_256_Grayson_ELEV_Dusk_2_RzOP8jl.jpg?w=365&h=321&crop=yes&quality=80",
+        "https://awh.widen.net/content/08ypcqo9mw/web/transfer_3826Chicory_5_oMmL5QM.jpg?w=1024&h=768&crop=yes&quality=80",
+        "https://awh.widen.net/content/hhfvxpjkwr/web/Timeless-Collection-Thumbnail_edited_y6M56qa.jpg?w=1552&h=500&crop=yes&quality=80",
+        "https://awh.widen.net/content/4qmjgfxyaa/web/cms_2318M.jpg_w6KZ2Dp.jpg?w=1027&h=620&crop=yes&quality=80",
+        "https://awh.widen.net/content/wxbw8qy0st/web/cms_Knox-B-elev.jpg_7P639gg.jpg?w=1027&h=620&crop=yes&quality=80",
+        "https://awh.widen.net/content/6oy9nmxbcw/web/cms_1.png_Q9lGbmj.png?w=630&h=408&crop=yes&keep=c&quality=80"
+      ]
+    }
+  ],
+  "details": {
+    "price_range": "$301K-$443K",
+    "sqft_range": "2128",
+    "bed_range": "3",
+    "bath_range": "2",
+    "stories_range": "1 - 2",
+    "community_count": 1
+  },
+  "amenities": [],
+  "nearbyplaces": [],
+  "collections": [
+    {
+      "name": "Estates at Estrella Crossing",
+      "id": "0",
+      "isActive": true,
+      "nearbySchools": []
+    }
+  ]
+}

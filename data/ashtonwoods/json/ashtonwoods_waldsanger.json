@@ -1,0 +1,284 @@
+{
+  "timestamp": "2025-06-20T10:14:31.445546",
+  "url": "https://www.ashtonwoods.com/san-antonio/waldsanger",
+  "builder": "Ashton Woods",
+  "status": null,
+  "name": "Waldsanger",
+  "price_from": "$661K-$789K",
+  "address": "10706 Roe, New Braunfels, TX 78132",
+  "location": {
+    "latitude": 33.3539,
+    "longitude": -112.1597,
+    "address": {
+      "city": "New Braunfels",
+      "state": "TX",
+      "market": "Phoenix"
+    }
+  },
+  "phone": null,
+  "description": "Waldsanger is located in the picturesque Texas Hill Country, known for its rolling hills, lush greenery, and stunning views. Waldsanger offers residents the opportunity to live amidst this natural beauty, with spacious and well-maintained acreage with spacious homes starting in the low $700's. The acreage homesites in Waldsanger provide ample space for homeowners to enjoy their privacy and create a peaceful retreat away from the hustle and bustle of city life. With plenty of room to spread out, residents can relax and unwind in the serenity of the Texas Hill Country. Homes are personalized to be welcoming as well, with pristine landscaping and stunning interiors for entertaining guests, or just for relaxing on the covered patio.",
+  "images": [
+    "https://awh.widen.net/content/5fxc1we7ya/web/transfer_SAN_BGE_Cobe_ELEV5_M3oQY9a.jpg?w=1552&h=620&crop=yes&keep=c&quality=80"
+  ],
+  "homeplans": [
+    {
+      "name": "Alexander II",
+      "url": "https://www.ashtonwoods.com/san-antonio/waldsanger/waldsanger-alexander-ii",
+      "details": {
+        "price": "$661K",
+        "beds": "3–4",
+        "baths": "2–3.5",
+        "sqft": "2653",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/swz13lfjt9/web/cms_Alexander-II-M-Waldsanger-elev_DSK.jpg_YbQ6q6P.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Kitchen open to family room"
+        },
+        {
+          "section_index": "1",
+          "description": "Formal dining room"
+        },
+        {
+          "section_index": "2",
+          "description": "Open study"
+        },
+        {
+          "section_index": "3",
+          "description": "Covered patio"
+        },
+        {
+          "section_index": "4",
+          "description": "Primary suite with walk-in closet"
+        },
+        {
+          "section_index": "5",
+          "description": "Spacious family room"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Avalon II",
+      "url": "https://www.ashtonwoods.com/san-antonio/waldsanger/avalon-ii",
+      "details": {
+        "price": "$720K",
+        "beds": "3–4",
+        "baths": "2–3.5",
+        "sqft": "2999–3447",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/fmzyyvcuxv/jpeg/cms_10868ChestnutWarbler_LowRes--2-.jpg_N7Q7zeW.jpg?w=1000&h=760&crop=yes&keep=c&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Kitchen open to family room"
+        },
+        {
+          "section_index": "1",
+          "description": "Private owner's bath"
+        },
+        {
+          "section_index": "2",
+          "description": "Family room with fireplace"
+        },
+        {
+          "section_index": "3",
+          "description": "Formal dining room"
+        },
+        {
+          "section_index": "4",
+          "description": "Covered patio"
+        },
+        {
+          "section_index": "5",
+          "description": "Three-car, side-entry garage"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Kylie",
+      "url": "https://www.ashtonwoods.com/san-antonio/waldsanger/kylie",
+      "details": {
+        "price": "$753K",
+        "beds": "4–5",
+        "baths": "3–5.5",
+        "sqft": "3350",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/hnlg0f9x94/original/transfer_1130CapeMayWarbler_LowRes-1_VR34OMg.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Kitchen open to family room"
+        },
+        {
+          "section_index": "1",
+          "description": "Owner's suite with spa-like shower"
+        },
+        {
+          "section_index": "2",
+          "description": "Family room with fireplace"
+        },
+        {
+          "section_index": "3",
+          "description": "Formal dining room"
+        },
+        {
+          "section_index": "4",
+          "description": "Covered patio"
+        },
+        {
+          "section_index": "5",
+          "description": "Valet from garage"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Cayden",
+      "url": "https://www.ashtonwoods.com/san-antonio/waldsanger/cayden",
+      "details": {
+        "price": "$763K",
+        "beds": "4",
+        "baths": "3.5",
+        "sqft": "3545",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/psnzg3rloi/jpeg/cms_1121CapeMayWarbler_HighRes-2.jpg_gk7KP3x.jpg?w=1000&h=760&crop=yes&keep=c&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Kitchen open to family room"
+        },
+        {
+          "section_index": "1",
+          "description": "Owner's suite with spa-like bath"
+        },
+        {
+          "section_index": "2",
+          "description": "Family room with fireplace"
+        },
+        {
+          "section_index": "3",
+          "description": "Formal dining room"
+        },
+        {
+          "section_index": "4",
+          "description": "Private study"
+        },
+        {
+          "section_index": "5",
+          "description": "Valet from garage"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Arcadia",
+      "url": "https://www.ashtonwoods.com/san-antonio/waldsanger/arcadia",
+      "details": {
+        "price": "$788K",
+        "beds": "4–5",
+        "baths": "3–4.5",
+        "sqft": "3586",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/jrgukhow7y/web/transfer_Arcadia-C-Gen3-elev_DSK_NZBOmyD.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Gourmet kitchen with a butler's pantry walkthrough to dining room"
+        },
+        {
+          "section_index": "1",
+          "description": "Optional Casita perfect for guests or an aging parent"
+        },
+        {
+          "section_index": "2",
+          "description": "Spacious family room with warm, inviting fireplace"
+        },
+        {
+          "section_index": "3",
+          "description": "Primary suite with elegant private bath"
+        }
+      ],
+      "floorplan_images": []
+    },
+    {
+      "name": "Cobe",
+      "url": "https://www.ashtonwoods.com/san-antonio/waldsanger/cobe",
+      "details": {
+        "price": "$789K",
+        "beds": "4–6",
+        "baths": "3–5.5",
+        "sqft": "3725–4259",
+        "status": "Actively selling",
+        "image_url": "https://awh.widen.net/content/wbxxvl2i25/web/transfer_SAN_BGE_Cobe_ELEV-2_r9R195l.jpg?w=1000&h=760&crop=yes&quality=80"
+      },
+      "includedFeatures": [
+        {
+          "section_index": "0",
+          "description": "Kitchen open to family room"
+        },
+        {
+          "section_index": "1",
+          "description": "Owner's suite with walk-in closets"
+        },
+        {
+          "section_index": "2",
+          "description": "Formal dining room"
+        },
+        {
+          "section_index": "3",
+          "description": "Open study"
+        }
+      ],
+      "floorplan_images": []
+    }
+  ],
+  "homesites": [
+    {
+      "name": "may WARBLER , Laveen, AZ",
+      "plan": "Cayden",
+      "id": "2",
+      "address": "may WARBLER , Laveen, AZ 85339",
+      "price": "$879,990",
+      "beds": "4",
+      "baths": "3.5",
+      "sqft": "3953",
+      "status": "Move-in Ready",
+      "image_url": "https://awh.widen.net/content/rw1yerugcr/web/transfer_SAN_BGE_Cobe_ELEV_Xzo1zwl.jpg?w=365&h=321&crop=yes&quality=80",
+      "url": "https://www.ashtonwoods.com/san-antonio/waldsanger/cayden/1121-cape-may-warbler",
+      "latitude": 33.3539,
+      "longitude": -112.1597,
+      "overview": "This stunning Cayden floorplan perfectly blends style and function, offering 4 bedrooms, 3 bathrooms, and a spacious 3-car garage. Designed with comfort and elegance, the gourmet kitchen features a built-in cooktop and oven, seamlessly flowing into the large family room with a cozy wood-burning fireplace, built-in shelves, and a grand chandelier—ideal for relaxation and entertaining. A private study off the foyer offers a quiet retreat, while the first-floor media room is perfect for movie nights. Upstairs, a spacious game room provides a great space for family fun. The luxurious primary suite boasts an oversized shower, garden tub, dual vanities, and a large walk-in closet. Each secondary bedroom is generously sized with walk-in closets for privacy and comfort. Enjoy outdoor living on the extended covered patio, and benefit from the convenience of a sprinkler system. This home offers modern living with thoughtful design and ample space.",
+      "images": [
+        "https://awh.widen.net/content/rw1yerugcr/web/transfer_SAN_BGE_Cobe_ELEV_Xzo1zwl.jpg?w=365&h=321&crop=yes&quality=80",
+        "https://awh.widen.net/content/psnzg3rloi/jpeg/cms_1121CapeMayWarbler_HighRes-2.jpg_gk7KP3x.jpg?w=1024&h=768&crop=yes&keep=c&quality=80",
+        "https://awh.widen.net/content/capidf7mms/jpeg/transfer_Cayden-H-Gen3-elev_DSK_B3KoKRQ.jpg?w=1027&h=620&crop=yes&quality=80"
+      ]
+    }
+  ],
+  "details": {
+    "price_range": "$661K-$789K",
+    "sqft_range": "3953",
+    "bed_range": "4",
+    "bath_range": "3",
+    "stories_range": "1 - 2",
+    "community_count": 1
+  },
+  "amenities": [],
+  "nearbyplaces": [],
+  "collections": [
+    {
+      "name": "Estates at Estrella Crossing",
+      "id": "0",
+      "isActive": true,
+      "nearbySchools": []
+    }
+  ]
+}

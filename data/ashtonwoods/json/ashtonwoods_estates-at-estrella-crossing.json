@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-06-19T17:53:22.128920",
+  "timestamp": "2025-06-20T10:09:28.962851",
   "url": "https://www.ashtonwoods.com/phoenix/estates-at-estrella-crossing?comm=PHO|MCESCR#quick-move-ins",
   "builder": "Ashton Woods",
   "status": null,
@@ -15,10 +15,10 @@
       "market": "Phoenix"
     }
   },
-  "phone": "(480) 386-9291",
-  "description": null,
+  "phone": "(480) 376-1971",
+  "description": "The Estates at Estrella Crossing is nestled within the well-established Estrella Crossing Community, offering an exceptional living experience in a picturesque setting. This community features five thoughtfully designed home plans and two convenient RV Garage options, perfect for those who appreciate outdoor adventures. Residents of Estrella Crossing can enjoy breathtaking mountain views and access to numerous hiking trails, making it an ideal location for nature lovers. With the new Loop 202 nearby, commuting becomes a breeze, and Laveen Village is just around the corner, providing an array of shopping, dining, and entertainment options.",
   "images": [
-    "https://awh.widen.net/content/70pljwst0y/web/transfer_PHX_Marquis_PMA45_Topaz_PrimarySuiteBathroom_NZZL9Z7.jpg?w=1552&h=620&crop=yes&quality=80"
+    "https://awh.widen.net/content/70pljwst0y/web/transfer_PHX_Marquis_PMA45_Topaz_PrimarySuiteBathroom_NZZL9Z7.jpg?w=1552&h=620&crop=yes&keep=c&quality=80"
   ],
   "homeplans": [
     {
@@ -245,15 +245,15 @@
       "plan": "Opal RV Garage",
       "id": "1",
       "address": "5520 W Hopi Trl, Laveen, AZ 85339",
-      "price": "$550,990",
+      "price": "$552,990",
       "beds": "4",
       "baths": "3",
       "sqft": "2124",
       "status": "Move-in Ready",
       "image_url": "https://awh.widen.net/content/beizqc2bi9/web/transfer_Milan-2.0_w5NEM9X.png?w=1552&h=500&crop=yes&quality=80",
       "url": "https://www.ashtonwoods.com/phoenix/estates-at-estrella-crossing/estates-estrella-crossing-opal-rv/lot-556-5520-w-hopi-trl-opalrv",
-      "latitude": 33.3608329,
-      "longitude": -112.1560087,
+      "latitude": 33.3539,
+      "longitude": -112.1597,
       "overview": "Welcome to the Opal floorplan, a spacious 2,124 sq. ft. single-story home that perfectly blends style and functionality. This residence features 4 bedrooms, 3 full baths, and a versatile den, providing ample room for relaxation and entertainment.",
       "images": [
         "https://awh.widen.net/content/beizqc2bi9/web/transfer_Milan-2.0_w5NEM9X.png?w=1552&h=500&crop=yes&quality=80",
@@ -266,22 +266,21 @@
       "plan": "Jade",
       "id": "2",
       "address": "5510 W Paseo Way, Laveen, AZ 85339",
-      "price": "$574,990",
+      "price": "$569,990",
       "beds": "4",
       "baths": "3.5",
       "sqft": "2623",
       "status": "Move-in Ready",
       "image_url": "https://awh.widen.net/content/2pyonbqxvk/web/transfer_Roosevelt-2.0_XzLbQvr.png?w=1552&h=500&crop=yes&quality=80",
       "url": "https://www.ashtonwoods.com/phoenix/estates-at-estrella-crossing/estates-estrella-crossing-jade-2623/lot-584-5510-w-paseo-way-jade",
-      "latitude": 33.3616159,
-      "longitude": -112.1582179,
+      "latitude": 33.3539,
+      "longitude": -112.1597,
       "overview": "Welcome to the stunning Jade floorplan, boasting over 2600 sq ft, this home is spacious and beautifully designed with 4-bedrooms, 3.5-bathrooms that perfectly blends modern luxury with timeless farmhouse charm. Situated on a desirable corner homesite, this home features a welcoming farmhouse-style exterior with a paver driveway, setting the tone for the elegance inside. Upon entering, you’ll immediately be impressed by the 9-ft ceilings and 8-ft interior doors throughout, enhancing the home's open, airy feel. The open-concept design is ideal for both relaxed everyday living and entertaining. A formal dining room, complete with a butler’s pantry, provides an elegant space for special meals, while the adjacent kitchen will truly capture your attention. Featuring 42\" dark espresso cabinets with sleek brushed nickel hardware, the kitchen is not only functional but stylish. The white quartz countertops are complemented by a stunning marble-look mosaic backsplash, creating an eye-catching focal point. The stainless-steel appliances—dishwasher, gas range, microwave, and fridge—add a polished, modern touch, and the single-bowl undermount sink is both practical and elegant. For added convenience, the kitchen is prewired for pendant lighting, offering an extra layer of sophistication. The primary suite is tucked away for privacy, creating a serene retreat to unwind after a busy day. The en-suite bathroom is a spa-like oasis, featuring brushed nickel fixtures that add a touch of elegance. The white sand quartz countertops and premium finishes provide a luxurious feel, while the spacious closet ensures you’ll have all the storage space you need. Three additional bedrooms are thoughtfully positioned to offer comfort and privacy, making them ideal for family, guests, or a home office. The well-appointed bathrooms, with their brushed nickel fixtures and white sand quartz countertops, mirror the home’s stylish and cohesive design. The living area’s large 4-panel sliding glass open seamlessly to the covered outdoor patio, ideal for enjoying the fresh air and views of your expansive corner lot. Additional highlights of the home include wood-like plank ceramic tile throughout the main living areas (excluding the bedrooms), soft water loop, a washer and dryer, a garage door opener, and a spacious 3-car garage to meet all your storage needs. This thoughtfully designed home combines elegance, functionality, and modern comforts. Come explore the Jade floorplan and discover your perfect place to call home!",
       "images": [
         "https://awh.widen.net/content/2pyonbqxvk/web/transfer_Roosevelt-2.0_XzLbQvr.png?w=1552&h=500&crop=yes&quality=80",
         "https://awh.widen.net/content/t9uhyxrrxg/web/cms_476---T3.jpg_Wy4Dbxy.jpg?w=1027&h=620&crop=yes&quality=80",
         "https://awh.widen.net/content/e1zttwzblg/web/cms_45-2623-Jade-L1-Gen3-elev_DAY.jpg_dg7E93B.jpg?w=1027&h=620&crop=yes&quality=80",
         "https://awh.widen.net/content/ouadzkk3zl/web/cms_Sol--Lot-29--Exterior-Rendering-L3.PNG_GKzygaj.png?w=1027&h=620&crop=yes&quality=80",
-        "https://awh.widen.net/content/1idpvejcdl/web/transfer_45_2623-Garnet-J3-Gen3-elev_DAY_ooN7LP6.jpg?w=1027&h=620&crop=yes&quality=80",
         "https://awh.widen.net/content/tzrck1ture/web/cms_Lot-284---Elevation-Rendering.JPG_BYBm8Oy.jpg?w=1027&h=620&crop=yes&quality=80",
         "https://awh.widen.net/content/bt6ibbo8hp/web/transfer_10.28.24-incentives-and-savings_VRkZZNg.png?w=630&h=408&crop=yes&quality=80"
       ]
@@ -291,15 +290,15 @@
       "plan": "Topaz",
       "id": "3",
       "address": "5610 W Hopi Trl, Laveen, AZ 85339",
-      "price": "$569,990",
+      "price": "$564,990",
       "beds": "3",
       "baths": "2.5",
       "sqft": "2507",
       "status": "Move-in Ready",
       "image_url": "https://awh.widen.net/content/2pyonbqxvk/web/transfer_Roosevelt-2.0_XzLbQvr.png?w=1552&h=500&crop=yes&quality=80",
       "url": "https://www.ashtonwoods.com/phoenix/estates-at-estrella-crossing/estates-estrella-crossing-topaz-2507/lot-550-5610-w-hopi-trl-topaz",
-      "latitude": 33.3608329,
-      "longitude": -112.1560087,
+      "latitude": 33.3539,
+      "longitude": -112.1597,
       "overview": "Welcome to the Topaz plan, a stunning single-story home offering 2,507 square feet of thoughtfully designed living space. This home features three spacious bedrooms, a den, and two and a half baths, providing ample room for both relaxation and entertainment. The charming craftsman-style exterior is complemented by a welcoming front porch, a paver driveway, and a three-car tandem garage for added convenience. An impressive 8-foot front door welcomes you inside, once indoors, you'll fall in love with the spacious open-concept design enhanced by 9-foot ceilings and 8 ft interior doors all throughout. The heart of the home is a stunning kitchen that truly wows. The kitchen is a culinary haven, featuring dark 42-inch upper espresso cabinets with satin nickel hardware, complemented by a stunning marble-looking backsplash and luxurious white quartz countertops to bring everything together. Additionally, a single basin stainless steel sink along with stainless steel appliances including gas range, add a modern touch, while being fully functional. This home features 6x24 natural wood-look tile flooring anchoring the open-concept living spaces all throughout minus the bedrooms and den where plush carpeting resides. The great room is a highlight, with a 4-panel sliding glass door that opens to a spacious backyard to create a seamless transition between indoor and outdoor living spaces. The bathrooms are equally impressive, with quartz countertops, the same dark cabinets, and thoughtful design elements and upgraded satin nickel finishes to keep a cohesive look. Additional features include a soft water loop, garage door opener, and blinds throughout. This home offers the perfect blend of style, functionality, and luxury.",
       "images": [
         "https://awh.widen.net/content/2pyonbqxvk/web/transfer_Roosevelt-2.0_XzLbQvr.png?w=1552&h=500&crop=yes&quality=80",
@@ -308,12 +307,12 @@
         "https://awh.widen.net/content/hjoxr6ge5j/web/cms_1-web-or-mls-W-Mellen-Ln-2005-001.jpg_EWaEbny.jpg?w=1027&h=620&crop=yes&quality=80",
         "https://awh.widen.net/content/lbplo1n2iq/web/cms_1-web-or-mls-W-Pecan-Wds-0406-001.jpg_4g6EK6B.jpg?w=1027&h=620&crop=yes&quality=80",
         "https://awh.widen.net/content/rxi7kitbco/web/cms_001-Exterior-475-S10.jpeg_eqmNngb.jpg?w=1027&h=620&crop=yes&quality=80",
-        "https://awh.widen.net/content/mdpyzz5sc4/web/cms_001_Elevation.jpg_jq7BvY1.jpg?w=1027&h=620&crop=yes&quality=80",
-        "https://awh.widen.net/content/nger9xp8m5/web/cms_4-web-or-mls-W-Cheryl-Dr-1405-004.jpg_n9oejLP.jpg?w=1027&h=620&crop=yes&quality=80",
         "https://awh.widen.net/content/t9llorgztd/web/cms_1-web-or-mls-W-Cheryl-Dr-1405-001.jpg_D8NYyzK.jpg?w=1027&h=620&crop=yes&quality=80",
         "https://awh.widen.net/content/ydrox4ldi6/web/transfer_45-2507-Sunstone-T3-elev_LZgMevr.jpg?w=1027&h=620&crop=yes&quality=80",
         "https://awh.widen.net/content/wyq7by0fnf/web/cms_45_2507-Topaz-D1-Gen3-elev_DAY.jpg_z74b5x5.jpg?w=1027&h=620&crop=yes&quality=80",
-        "https://awh.widen.net/content/ptuptak9d1/web/cms_Exterior-Elevation---D1---Topaz.JPG_o07ZmZM.jpg?w=1027&h=620&crop=yes&quality=80"
+        "https://awh.widen.net/content/ptuptak9d1/web/cms_Exterior-Elevation---D1---Topaz.JPG_o07ZmZM.jpg?w=1027&h=620&crop=yes&quality=80",
+        "https://awh.widen.net/content/45hnrs9hbq/web/cms_45_2507-Topaz-D1-elev_DAY.jpg_p97kEzP.jpg?w=1027&h=620&crop=yes&quality=80",
+        "https://awh.widen.net/content/bt6ibbo8hp/web/transfer_10.28.24-incentives-and-savings_VRkZZNg.png?w=630&h=408&crop=yes&quality=80"
       ]
     },
     {
@@ -328,13 +327,13 @@
       "status": "Move-in Ready",
       "image_url": "https://awh.widen.net/content/ugjyvncm17/web/transfer_Harmony-2.0_ooX1v86.png?w=1552&h=500&crop=yes&quality=80",
       "url": "https://www.ashtonwoods.com/phoenix/estates-at-estrella-crossing/estates-estrella-crossing-diamond/lot-541-5531-w-hopi-trl-diamond",
-      "latitude": 33.3608329,
-      "longitude": -112.1560087,
+      "latitude": 33.3539,
+      "longitude": -112.1597,
       "overview": "Welcome to this stunning Diamond floorplan home, offering a generous 4,117 square feet of modern living space featuring 5 spacious bedrooms, a versatile upstairs loft, and 3.5 bathrooms—perfectly blending comfort and functionality.",
       "images": [
         "https://awh.widen.net/content/ugjyvncm17/web/transfer_Harmony-2.0_ooX1v86.png?w=1552&h=500&crop=yes&quality=80",
-        "https://awh.widen.net/content/1f9pnpb9t7/web/cms_1-web-or-mls-Rowel-Rd-001.jpg_w6DbGWg.jpg?w=1027&h=620&crop=yes&quality=80",
-        "https://awh.widen.net/content/zk3llj8wzi/web/cms_Elevation-Rendering-T2.JPG_z7LdE2b.jpg?w=1027&h=620&crop=yes&quality=80",
+        "https://awh.widen.net/content/1f9pnpb9t7/web/cms_1-web-or-mls-Rowel-Rd-001.jpg_w6DbGWg.jpg?w=1027&h=620&crop=yes&keep=c&quality=80",
+        "https://awh.widen.net/content/zk3llj8wzi/web/cms_Elevation-Rendering-T2.JPG_z7LdE2b.jpg?w=1027&h=620&crop=yes&keep=c&quality=80",
         "https://awh.widen.net/content/bt6ibbo8hp/web/transfer_10.28.24-incentives-and-savings_VRkZZNg.png?w=630&h=408&crop=yes&quality=80"
       ]
     }

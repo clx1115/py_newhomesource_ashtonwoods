@@ -150,8 +150,12 @@ def parse_community_data(driver, url):
         data["phone"] = clean_text(phone_elem) if phone_elem else None
         
         # Extract description
-        desc_elem = soup.find('p', string=re.compile(r'Welcome to Estrella Crossing'))
-        data["description"] = clean_text(desc_elem.text) if desc_elem else None
+        desc_container = soup.find('div', {'class': 'js-expando is-initialized is-disabled is-expanded'})
+        data["description"] = None
+        if desc_container and desc_container.find('div', {'class': 'image-content__main-content'}):
+            first_p = desc_container.find('div', {'class': 'image-content__main-content'}).find('p')
+            if first_p:
+                data["description"] = clean_text(first_p.text)
         
         # Extract one image from carousel
         data["images"] = []
@@ -421,7 +425,7 @@ def parse_homesites(soup, driver):
                 home_data = {
                     "name": None,
                     "plan": None,
-                    "id": str(idx),  # Add sequential ID
+                    "id": str(idx),
                     "address": None,
                     "price": None,
                     "beds": None,
@@ -463,7 +467,7 @@ def parse_homesites(soup, driver):
                             address = f"{street_number} {street_direction} {street_name}, Laveen, AZ 85339"
                             name_without_zip = f"{street_number} {street_direction} {street_name}, Laveen, AZ"
                             home_data["address"] = address
-                            home_data["name"] = name_without_zip  # Only change the name, not the plan
+                            home_data["name"] = name_without_zip
                             
                             # Get coordinates for the address
                             lat, lon = get_coordinates(address)
@@ -643,7 +647,7 @@ def main():
             # Default URL if no arguments provided
             default_url = "https://www.ashtonwoods.com/phoenix/estrella-crossing-community?comm=PHO|MCESCR#quick-move-ins"
             process_community_url(driver, default_url)
-            
+        
     except Exception as e:
         logger.error(f"Error in main execution: {str(e)}")
     finally:
